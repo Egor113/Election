@@ -3,18 +3,6 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	web_add_cookie("__utmz=252441553.1574611162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); DOMAIN=www.vybory.izbirkom.ru");
-
-	web_add_cookie("__utma=252441553.1240078081.1574611162.1574611162.1575202796.2; DOMAIN=www.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmb=252441553.4.10.1575202796; DOMAIN=www.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmt=1; DOMAIN=www.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmb=252441553.5.10.1575202796; DOMAIN=www.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmc=252441553; DOMAIN=www.vybory.izbirkom.ru");
-
 	web_url("www.vybory.izbirkom.ru", 
 		"URL=http://www.vybory.izbirkom.ru/", 
 		"TargetFrame=", 
@@ -38,17 +26,6 @@ Action()
 		LAST);
 
 	lr_start_transaction("UC01_TR01_Choose_date");
-
-	web_add_cookie("SRCHUID=V=2&GUID=E69679589E024605A804D4AACFEFF080&dmnchg=1; DOMAIN=iecvlist.microsoft.com");
-
-	web_add_cookie("SRCHD=AF=NOFORM; DOMAIN=iecvlist.microsoft.com");
-
-	web_add_cookie("MC1=GUID=cdf3d14eec51462f98b057770b8b2c3c&HASH=cdf3&LV=201908&V=4&LU=1566572366489; DOMAIN=iecvlist.microsoft.com");
-
-	web_add_cookie("SRCHUSR=DOB=20190515; DOMAIN=iecvlist.microsoft.com");
-
-	web_add_header("UA-CPU", 
-		"AMD64");
 
 	web_url("iecompatviewlist.xml", 
 		"URL=https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml", 
@@ -92,8 +69,6 @@ Action()
 		"utmp=%2Fregion%2Fizbirkom&utmht=1575203050077&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~", ENDITEM, 
 		LAST);
 
-	web_add_cookie("__utmb=252441553.6.10.1575202796; DOMAIN=www.vybory.izbirkom.ru");
-
 	lr_end_transaction("UC01_TR01_Choose_date",LR_AUTO);
 
 	lr_think_time(39);
@@ -118,8 +93,6 @@ Action()
 
 	lr_start_transaction("UC01_TR03_Region");
 
-	web_add_cookie("__utmb=252441553.7.10.1575202796; DOMAIN=www.vybory.izbirkom.ru");
-
 	lr_think_time(62);
 
 	web_url("izbirkom_2", 
@@ -141,8 +114,6 @@ Action()
 
 	lr_start_transaction("UC01_TR04_Subregion");
 
-	web_add_cookie("__utmb=252441553.8.10.1575202796; DOMAIN=www.vybory.izbirkom.ru");
-
 	lr_think_time(18);
 
 	web_url("izbirkom_3", 
@@ -159,8 +130,6 @@ Action()
 		"www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371", ENDITEM, 
 		"Url=../header/00/fonts/PTS75F_W.eot", "Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371", ENDITEM, 
 		LAST);
-
-	web_add_cookie("__utmb=252441553.9.10.1575202796; DOMAIN=www.vybory.izbirkom.ru");
 
 	lr_end_transaction("UC01_TR04_Subregion",LR_AUTO);
 
@@ -186,18 +155,6 @@ Action()
 
 	lr_start_transaction("UC01_TR06_Choose_UIK");
 
-	web_add_cookie("__utmz=252441553.1574611162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); DOMAIN=www.adygei.vybory.izbirkom.ru");
-
-	web_add_cookie("__utma=252441553.1240078081.1574611162.1574611162.1575202796.2; DOMAIN=www.adygei.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmb=252441553.10.10.1575202796; DOMAIN=www.adygei.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmt=1; DOMAIN=www.adygei.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmc=252441553; DOMAIN=www.adygei.vybory.izbirkom.ru");
-
-	web_add_cookie("__utmb=252441553.11.10.1575202796; DOMAIN=www.adygei.vybory.izbirkom.ru");
-
 	lr_think_time(86);
 
 	web_url("adygei", 
@@ -218,8 +175,6 @@ Action()
 	lr_end_transaction("UC01_TR06_Choose_UIK",LR_AUTO);
 
 	lr_start_transaction("UC01_TR07_UIK_Results");
-
-	web_add_cookie("__utmb=252441553.12.10.1575202796; DOMAIN=www.adygei.vybory.izbirkom.ru");
 
 	lr_think_time(38);
 
