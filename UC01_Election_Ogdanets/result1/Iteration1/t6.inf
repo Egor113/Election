@@ -1,0 +1,72 @@
+[t6]
+FileName11=t3_39_jquery-1.js
+FileName10=t3_38_datepicker.js
+FileName13=t1_17___utm.gif
+FileName12=t1_18_ga.js
+StepName=Url: izbirkom_3
+FileName15=t3_27_e.gif
+FileName14=t6_66_header_bg.jpe
+FileName17=t3_28_all.js
+FileName16=t3_31_cal.js
+FileName19=t3_25_jquery.js
+RequestBodyFile=t6_RequestBody.txt
+FileName18=t3_26_datepicker-ru.js
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+ResponseHeaderFile=t6_ResponseHeader.txt
+SaveSnapshotResources=1
+URL10=http://www.vybory.izbirkom.ru/js/cal/datepicker.js
+URL11=http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js
+URL12=https://www.google-analytics.com/ga.js
+URL13=https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=5&utmn=1201864127&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0 r0&utmdt=Сведения о проводящихся выборах и референдумах&utmhid=2073637711&utmr=-&utmp=/region/izbirkom&utmht=1575202998577&utmac=UA-26136728-1&utmcc=__utma=252441553.1240078081.1574611162.1574611162.1575202796.2;+__utmz=252441553.1574611162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~
+URL14=http://www.vybory.izbirkom.ru/header/00/header_bg.jpg
+URL15=http://www.vybory.izbirkom.ru/img/e.gif
+URL16=http://www.vybory.izbirkom.ru/js/cal/cal.js
+URL17=http://www.vybory.izbirkom.ru/js/cal/all.js
+URL18=http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js
+URL19=http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js
+URL20=http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css
+URL21=http://www.vybory.izbirkom.ru/header/00/00.css
+URL22=http://www.vybory.izbirkom.ru/css/report.css
+URL23=http://www.vybory.izbirkom.ru/favicon.ico
+URL24=http://www.vybory.izbirkom.ru/css/cal/cal.css
+URL25=http://www.vybory.izbirkom.ru/css/cal/sumoselect.css
+URL26=http://www.vybory.izbirkom.ru/styles/main.css
+URL27=http://www.vybory.izbirkom.ru/css/cal/core.css
+URL28=http://www.vybory.izbirkom.ru/css/cal/theme.css
+URL29=http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?
+URL30=http://www.vybory.izbirkom.ru/css/cal/datepicker.css
+FileName1=t6.html
+FileName3=t5_56___utm.gif
+RawStepEndTime=1575203474080
+FileName2=t6_61___utm.gif
+FileName5=t6_58_form.gif
+FileName4=t6_63_folder_1.gif
+FileName7=t6_65_0.css
+FileName6=t4_45___utm.gif
+FileName9=t3_24___utm.gif
+FileName8=t6_64_PTS75F_W.UNK
+Total=30
+RawStepStartTime=1575203473465
+FileName30=t3_36_datepicker.css
+URL1=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371
+URL2=https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=9&utmn=2028548954&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0 r0&utmdt=Сведения о проводящихся выборах и референдумах&utmhid=432739887&utmr=0&utmp=/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371&utmht=1575203194606&utmac=UA-26136728-1&utmcc=__utma=252441553.1240078081.1574611162.1574611162.1575202796.2;+__utmz=252441553.1574611162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~
+URL3=https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=8&utmn=1036077311&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0 r0&utmdt=Сведения о проводящихся выборах и референдумах&utmhid=1360077152&utmr=0&utmp=/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067&utmht=1575203161959&utmac=UA-26136728-1&utmcc=__utma=252441553.1240078081.1574611162.1574611162.1575202796.2;+__utmz=252441553.1574611162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~
+URL4=http://www.vybory.izbirkom.ru/img/folder_1.gif
+URL5=http://www.vybory.izbirkom.ru/img/form.gif
+URL6=https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=7&utmn=1065824253&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0 r0&utmdt=Сведения о проводящихся выборах и референдумах&utmhid=286712495&utmr=0&utmp=/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null&utmht=1575203090521&utmac=UA-26136728-1&utmcc=__utma=252441553.1240078081.1574611162.1574611162.1575202796.2;+__utmz=252441553.1574611162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~
+URL7=http://www.vybory.izbirkom.ru/css/0.css
+URL8=http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot
+URL9=https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=6&utmn=1972139193&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0 r0&utmdt=Сведения о проводящихся выборах и референдумах&utmhid=341776034&utmr=0&utmp=/region/izbirkom&utmht=1575203050077&utmac=UA-26136728-1&utmcc=__utma=252441553.1240078081.1574611162.1574611162.1575202796.2;+__utmz=252441553.1574611162.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~
+RequestHeaderFile=t6_RequestHeader.txt
+RawStepName=izbirkom_3
+FileName21=t6_60_00.css
+FileName20=t6_62_PTS75F_stylesheet.css
+FileName23=t1_7_favicon.ico
+FileName22=t6_59_report.css
+FileName25=t3_33_sumoselect.css
+FileName24=t3_35_cal.css
+FileName27=t3_29_core.css
+FileName26=t3_30_main.css
+FileName29=t1_1_PTS75F_W.UNK
+FileName28=t3_34_theme.css

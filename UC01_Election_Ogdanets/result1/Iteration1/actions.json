@@ -1,0 +1,119 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.vybory.izbirkom.ru",
+                "infFile": "t1.inf",
+                "time": 1575203472153
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: iecompatviewlist.xml",
+                "infFile": "t2.inf",
+                "time": 1575203472462
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: izbirkom",
+                "infFile": "t3.inf",
+                "time": 1575203472664
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Выборы Президента Российской Федерации",
+                "infFile": "t4.inf",
+                "time": 1575203473042
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: izbirkom_2",
+                "infFile": "t5.inf",
+                "time": 1575203473453
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: izbirkom_3",
+                "infFile": "t6.inf",
+                "time": 1575203474109
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: сайт избирательной комиссии субъекта Российской Федерации",
+                "infFile": "t7.inf",
+                "time": 1575203474547
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: adygei",
+                "infFile": "t8.inf",
+                "time": 1575203474910
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Итоги голосовани",
+                "infFile": "t9.inf",
+                "time": 1575203476090
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR01_Choose_date",
+                "rawStartTime": 1575203472155,
+                "rawEndTime": 1575203472670,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03224778175354004
+            },
+            {
+                "transactionName": "UC01_TR02_President_election",
+                "rawStartTime": 1575203472675,
+                "rawEndTime": 1575203473044,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02064681053161621
+            },
+            {
+                "transactionName": "UC01_TR03_Region",
+                "rawStartTime": 1575203473046,
+                "rawEndTime": 1575203473455,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017932415008544923
+            },
+            {
+                "transactionName": "UC01_TR04_Subregion",
+                "rawStartTime": 1575203473457,
+                "rawEndTime": 1575203474118,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04438138008117676
+            },
+            {
+                "transactionName": "UC01_TR05_Region_website",
+                "rawStartTime": 1575203474122,
+                "rawEndTime": 1575203474549,
+                "thinkTime": 0.0,
+                "wastedTime": 0.028025150299072267
+            },
+            {
+                "transactionName": "UC01_TR06_Choose_UIK",
+                "rawStartTime": 1575203474551,
+                "rawEndTime": 1575203474913,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01395106315612793
+            },
+            {
+                "transactionName": "UC01_TR07_UIK_Results",
+                "rawStartTime": 1575203474915,
+                "rawEndTime": 1575203476092,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01226496696472168
+            },
+            {
+                "transactionName": "UC01_TR08_Download_results",
+                "rawStartTime": 1575203476094,
+                "rawEndTime": 1575203476096,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

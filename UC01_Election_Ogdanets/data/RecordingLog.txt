@@ -1,0 +1,1027 @@
+[API Trapper      (5170:5028)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (2980:45c4)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2980:1704)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2980:1704)] Load Network Traffic Analyzers:
+[Network Analyzer (2980:1704)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2980:1704)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (2980:1704)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2980:1704)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (2980:1704)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2980:1704)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2980:1704)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2980:1704)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2980:50e8)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 64.233.165.113:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2980:30f4)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2980:30f4)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:2b74)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2b74)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (2980:50e8)] "GET /"   
+[Network Analyzer (2980:50e8)]   (Sid:  2) Client -> Server @ : 482 bytes (Service=HTTP)
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 575 bytes  (Service=HTTP)
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (2980:50e8)] "GET /region/izbirkom"   
+[Network Analyzer (2980:50e8)]   (Sid:  2) Client -> Server @ : 538 bytes (Service=HTTP)
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 1683 bytes  (Service=HTTP)
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  2) Client -> Server @ : 558 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_stylesheet.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  4) Client -> Server @ : 581 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/00.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  3) Client -> Server @ : 560 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/header_bg.jpg"   
+[Network Analyzer (2980:50e8)]   (Sid:  5) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  3) Server -> Client : 1347 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  4) Server -> Client : 881 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 392 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/jquery-1.11.2.min.js"   
+[Network Analyzer (2980:50e8)]   (Sid:  6) Client -> Server @ : 591 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/jquery.sumoselect.js"   
+[Network Analyzer (2980:50e8)]   (Sid:  7) Client -> Server @ : 591 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /styles/main.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  3) Client -> Server @ : 559 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/core.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  2) Client -> Server @ : 560 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/theme.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  4) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Server -> Client : 397 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 397 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 1966 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  3) Server -> Client : 4846 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  4) Server -> Client : 1507 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 8473 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 11415 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/sumoselect.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  2) Client -> Server @ : 566 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/cal.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  3) Client -> Server @ : 559 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/datepicker.css"   
+[Network Analyzer (2980:50e8)]   (Sid:  4) Client -> Server @ : 566 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/datepicker.js"   
+[Network Analyzer (2980:50e8)]   (Sid:  5) Client -> Server @ : 584 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/datepicker-ru.js"   
+[Network Analyzer (2980:50e8)]   (Sid:  7) Client -> Server @ : 587 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 2251 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 6694 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  3) Server -> Client : 3260 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  4) Server -> Client : 4238 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 397 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 1576 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/cal.js"   
+[Network Analyzer (2980:50e8)]   (Sid:  2) Client -> Server @ : 577 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/all.js"   
+[Network Analyzer (2980:50e8)]   (Sid:  3) Client -> Server @ : 577 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 397 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Server -> Client : 14015 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Server -> Client : 12584 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  3) Server -> Client : 1146 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/e.gif"   
+[Network Analyzer (2980:50e8)]   (Sid:  7) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Server -> Client : 14839 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 385 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 49 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /ga.js"   
+[Network Analyzer (2980:50e8)]   (Sid:  1) Client -> Server @ : 335 bytes (SSL)(Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_W.eot?"   
+[Network Analyzer (2980:50e8)]   (Sid:  7) Client -> Server @ : 602 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 1748 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 2068 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 3468 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 15180 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 15350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 9482 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 7354 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 27 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 2286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 4096 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=5&utmn=1201864127&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=2073637711&utmr=-&utmp=%2Fregion%2Fizbirkom&utmht=1575202998577&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid:  1) Client -> Server @ : 1097 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /favicon.ico"   
+[Network Analyzer (2980:50e8)]   (Sid:  7) Client -> Server @ : 465 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 390 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Server -> Client : 586 bytes  (Service=HTTP)
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2980: d00)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:49cc)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:3554)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3554)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 437 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2098 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 579 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2098 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (2980:3554)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3554)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 7528 bytes  (Service=HTTP)
+[Net An. Error    (2980: d00)] SSLAccept(ssl_id = 236196816 = 0E1413D0) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980: d00)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2980:49cc)] SSLAccept(ssl_id = 252428512 = 0F0BC0E0) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:49cc)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (5170:2d10)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5170:2d10)] Load Network Traffic Analyzers:
+[Network Analyzer (5170:2d10)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (5170:2d10)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (5170:2d10)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (5170:2d10)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (5170:2d10)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (5170:2d10)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (5170:2d10)]     Analyzer Module: local_server (value=)
+[Network Analyzer (5170:2d10)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5170:1a5c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 37.29.19.120:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 7528 bytes  (Service=HTTP)
+[User action                 ] StartTransactionEvent UC01_TR01_Choose_date [Network Analyzer (5170:2d10)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:2d10)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (5170:2430)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:2430)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (5170:1404)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (2980:1138)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 238 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/images/ui-icons_444444_256x240.png"   
+[Network Analyzer (2980:50e8)]   (Sid: 14) Client -> Server @ : 652 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 14) Server -> Client : 364 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2535 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 579 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2098 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 3680 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 3680 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (5170:55ec)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 3680 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 12) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 3680 bytes  (Service=HTTP)
+[Net An. Error    (2980:1138)] SSLAccept(ssl_id = 124829568 = 0770BF80) Failed, ctx = 0DF5E9A8, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:1138)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (5170:4980)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:4980)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (5170:1a5c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (5170:1a5c)]   (Sid:  3) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  3) Server -> Client : 2535 bytes  (Service=HTTP)
+[Web Request      (5170:1a5c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (5170:1a5c)]   (Sid:  3) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  3) Server -> Client : 579 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  3) Server -> Client : 2098 bytes  (Service=HTTP)
+[Network Analyzer (5170:2d10)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:2d10)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (5170:1a5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 3680 bytes  (Service=HTTP)
+[Web Request      (5170:1a5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 3680 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 14) Connection Terminated (by Server)
+[Net An. Error    (5170:1404)] SSLAccept(ssl_id = 2988612612480 = 000002B7D7317180) Failed, ctx = 000002B7D37545D0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (5170:1404)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (5170:55ec)] SSLAccept(ssl_id = 2988613723968 = 000002B7D7426740) Failed, ctx = 000002B7D37545D0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (5170:55ec)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5170:35ec)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:2d10)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:1a5c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (5170:1a5c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (5170:2d10)] Request Connection: Remote Server @ 37.29.19.120:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (5170:1a5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:35ec)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 3680 bytes  (Service=HTTP)
+[Network Analyzer (5170:46c0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (5170:46c0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (5170:1a5c)] "GET /IE11/1478281996/iecompatviewlist.xml"   
+[Network Analyzer (5170:1a5c)]   (Sid:  6) Client -> Server @ : 447 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  6) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  6) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  6) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  6) Server -> Client : 9908 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Web Request      (2980:50e8)] "POST /region/izbirkom"   
+[Network Analyzer (2980:50e8)]   (Sid: 15) Client -> Server @ : 860 bytes (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 2332 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 15) Client -> Server @ : 665 bytes (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Web Request      (2980:50e8)] "GET /header/00/00.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 16) Client -> Server @ : 666 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_stylesheet.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 17) Client -> Server @ : 687 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 330 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/header_bg.jpg"   
+[Network Analyzer (2980:50e8)]   (Sid: 18) Client -> Server @ : 723 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 16) Server -> Client : 329 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/jquery-1.11.2.min.js"   
+[Network Analyzer (2980:50e8)]   (Sid: 15) Client -> Server @ : 699 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 17) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 331 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 18) Server -> Client : 331 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/jquery.sumoselect.js"   
+[Network Analyzer (2980:50e8)]   (Sid: 16) Client -> Server @ : 699 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/core.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 15) Client -> Server @ : 667 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /styles/main.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 17) Client -> Server @ : 666 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/sumoselect.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 18) Client -> Server @ : 673 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/theme.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 19) Client -> Server @ : 669 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 16) Server -> Client : 331 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 17) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 18) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 19) Server -> Client : 331 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/cal.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 15) Client -> Server @ : 666 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/cal/datepicker.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 16) Client -> Server @ : 673 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/datepicker.js"   
+[Network Analyzer (2980:50e8)]   (Sid: 17) Client -> Server @ : 692 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/datepicker-ru.js"   
+[Network Analyzer (2980:50e8)]   (Sid: 18) Client -> Server @ : 694 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 330 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/cal.js"   
+[Network Analyzer (2980:50e8)]   (Sid: 19) Client -> Server @ : 685 bytes (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 16) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 17) Server -> Client : 331 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 18) Server -> Client : 330 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/cal/all.js"   
+[Network Analyzer (2980:50e8)]   (Sid: 15) Client -> Server @ : 683 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 19) Server -> Client : 331 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 15) Server -> Client : 329 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/e.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 16) Client -> Server @ : 706 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 16) Server -> Client : 328 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_W.eot?"   
+[Network Analyzer (2980:50e8)]   (Sid: 16) Client -> Server @ : 711 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 16) Server -> Client : 332 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=6&utmn=1972139193&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=341776034&utmr=0&utmp=%2Fregion%2Fizbirkom&utmht=1575203050077&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid:  1) Client -> Server @ : 1096 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2980:55c8)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2535 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 579 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2098 bytes  (Service=HTTP)
+[Network Analyzer (2980:379c)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 12) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 7528 bytes  (Service=HTTP)
+[Net An. Error    (2980:55c8)] SSLAccept(ssl_id = 251199944 = 0EF901C8) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:55c8)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2980:379c)] SSLAccept(ssl_id = 251073024 = 0EF71200) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:379c)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 22) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent UC01_TR01_Choose_date [Network Analyzer (2980:50e8)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 16) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR02_President_election [Network Analyzer (2980:50e8)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Web Request      (2980:50e8)] "GET /region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"   
+[Network Analyzer (2980:50e8)]   (Sid: 23) Client -> Server @ : 684 bytes (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 23) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 23) Server -> Client : 15414 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 23) Client -> Server @ : 737 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/00.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 24) Client -> Server @ : 738 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_stylesheet.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 25) Client -> Server @ : 759 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 23) Server -> Client : 330 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/header_bg.jpg"   
+[Network Analyzer (2980:50e8)]   (Sid: 26) Client -> Server @ : 795 bytes (Service=HTTP)
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 24) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 25) Server -> Client : 329 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/0.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 23) Client -> Server @ : 643 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 26) Server -> Client : 331 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/form.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 24) Client -> Server @ : 694 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/folder_1.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 25) Client -> Server @ : 698 bytes (Service=HTTP)
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 23) Server -> Client : 2826 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 24) Server -> Client : 519 bytes  (Service=HTTP)
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 25) Server -> Client : 387 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 25) Server -> Client : 118 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_W.eot?"   
+[Network Analyzer (2980:50e8)]   (Sid: 26) Client -> Server @ : 783 bytes (Service=HTTP)
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 26) Server -> Client : 332 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=7&utmn=1065824253&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=286712495&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3D1%26vrn%3D100100084849062%26region%3D0%26prver%3D0%26pronetvd%3Dnull&utmht=1575203090521&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid:  1) Client -> Server @ : 1264 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid:  1) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:5618)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 437 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2098 bytes  (Service=HTTP)
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 10) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 579 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Server -> Client : 2098 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2980:51d8)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 12) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Server -> Client : 7528 bytes  (Service=HTTP)
+[Net An. Error    (2980:5618)] SSLAccept(ssl_id = 251620536 = 0EFF6CB8) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:5618)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2980:51d8)] SSLAccept(ssl_id = 251623488 = 0EFF7840) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:51d8)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 30) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent UC01_TR02_President_election [Network Analyzer (5170:35ec)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:35ec)] Request Connection: Remote Server @ 137.135.251.63:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (5170:1734)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (5170:1a5c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (5170:2d10)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:2d10)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (5170:1a5c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (5170:1a5c)]   (Sid:  8) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  8) Server -> Client : 437 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  8) Server -> Client : 2098 bytes  (Service=HTTP)
+[Web Request      (5170:1a5c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (5170:1a5c)]   (Sid:  8) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  8) Server -> Client : 579 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  8) Server -> Client : 2098 bytes  (Service=HTTP)
+[Web Request      (5170:1a5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (5170:1a5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (5170:1a5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (5170:1a5c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (5170:1a5c)]   (Sid:  5) Server -> Client : 7528 bytes  (Service=HTTP)
+[Net An. Error    (5170:1734)] SSLAccept(ssl_id = 2988614586160 = 000002B7D74F8F30) Failed, ctx = 000002B7D74238B0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (5170:1734)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5170:1a5c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 26) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR03_Region [Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (2980:50e8)] "GET /region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"   
+[Network Analyzer (2980:50e8)]   (Sid: 31) Client -> Server @ : 834 bytes (Service=HTTP)
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 31) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 31) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 31) Server -> Client : 10008 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 31) Client -> Server @ : 815 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/00.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 32) Client -> Server @ : 816 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 31) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2b74)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 32) Server -> Client : 1347 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_stylesheet.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 31) Client -> Server @ : 837 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/header_bg.jpg"   
+[Network Analyzer (2980:50e8)]   (Sid: 32) Client -> Server @ : 873 bytes (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (2980:2b74)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 34)  PROXIED!
+[Web Request      (2980:50e8)] "GET /css/0.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 33) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 31) Server -> Client : 881 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 32) Server -> Client : 392 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/form.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 34) Client -> Server @ : 860 bytes (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (2980:3554)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 33) Server -> Client : 330 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/folder_1.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 31) Client -> Server @ : 864 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980: c78)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 34) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 31) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 32) Server -> Client : 8473 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_W.eot?"   
+[Network Analyzer (2980:50e8)]   (Sid: 35) Client -> Server @ : 861 bytes (Service=HTTP)
+[Network Analyzer (2980:3554)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 368 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 5520 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 8280 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 10862 bytes  (Service=HTTP)
+[Network Analyzer (2980: c78)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Server -> Client : 4096 bytes  (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 64.233.165.113:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (2980:47c4)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:3adc)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2980:3adc)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=8&utmn=1036077311&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=1360077152&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D1000001%26tvd%3D100100084849067%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D0%26sub_region%3D0%26type%3D0%26vibid%3D100100084849067&utmht=1575203161959&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid: 38) Client -> Server @ : 1441 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 38) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (2980:5674)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:50e8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (2980: c78)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: c78)] Request Connection: Remote Server @ 64.233.165.113:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (2980: b68)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2980: b68)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 41) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 41) Server -> Client : 437 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 41) Server -> Client : 2098 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2980:50e8)]   (Sid: 41) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 41) Server -> Client : 2677 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid= 42)  PROXIED!
+[User action                 ] EndTransactionEvent UC01_TR03_Region [Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 42) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 42) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Server -> Client : 7528 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (2980:2b74)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2b74)] Request Connection: Remote Server @ 37.29.19.113:80   (Service=)  (Sid= 43)  PROXIED!
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 43) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 7528 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2980:50e8)]   (Sid: 43) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 43) Server -> Client : 7528 bytes  (Service=HTTP)
+[Net An. Error    (2980:47c4)] SSLAccept(ssl_id = 251659024 = 0F000310) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:47c4)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2980:5674)] SSLAccept(ssl_id = 251661976 = 0F000E98) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:5674)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 33) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 35) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR04_Subregion [Network Analyzer (2980:50e8)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 44)  PROXIED!
+[Web Request      (2980:50e8)] "GET /region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"   
+[Network Analyzer (2980:50e8)]   (Sid: 44) Client -> Server @ : 909 bytes (Service=HTTP)
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 44) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 44) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 44) Server -> Client : 7195 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 44) Client -> Server @ : 812 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/00.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 45) Client -> Server @ : 813 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 44) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 45) Server -> Client : 329 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_stylesheet.css"   
+[Network Analyzer (2980:3554)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 44) Client -> Server @ : 834 bytes (Service=HTTP)
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 46)  PROXIED!
+[Web Request      (2980:50e8)] "GET /header/00/header_bg.jpg"   
+[Network Analyzer (2980:50e8)]   (Sid: 45) Client -> Server @ : 870 bytes (Service=HTTP)
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 44) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 45) Server -> Client : 331 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/0.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 46) Client -> Server @ : 807 bytes (Service=HTTP)
+[Network Analyzer (2980:3554)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 48)  PROXIED!
+[Web Request      (2980:50e8)] "GET /img/folder_1.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 44) Client -> Server @ : 861 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/form.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 47) Client -> Server @ : 857 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 46) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 44) Server -> Client : 329 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/00/fonts/PTS75F_W.eot?"   
+[Network Analyzer (2980:50e8)]   (Sid: 45) Client -> Server @ : 858 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=9&utmn=2028548954&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=432739887&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D12000009%26tvd%3D2012000364371%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D0%26sub_region%3D0%26type%3D0%26vibid%3D2012000364371&utmht=1575203194606&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid: 38) Client -> Server @ : 1434 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 38) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:4d4c)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2980:4d4c)] SSLAccept(ssl_id = 251659024 = 0F000310) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:4d4c)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 47) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 45) Server -> Client : 332 bytes  (Service=HTTP)
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 51)  PROXIED!
+[User action                 ] EndTransactionEvent UC01_TR04_Subregion [Network Analyzer (2980:27f4)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2980:27f4)] SSLAccept(ssl_id = 251673784 = 0F003CB8) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:27f4)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 46) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 44) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 47) Connection Terminated (by Server)
+[Network Analyzer (5170:1a5c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 45) Connection Terminated (by Server)
+[Network Analyzer (5170:1a5c)]   (Sid:  8) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR05_Region_website [Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 52)  PROXIED!
+[Web Request      (2980:50e8)] "GET /region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"   
+[Network Analyzer (2980:50e8)]   (Sid: 52) Client -> Server @ : 906 bytes (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.4:80   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 52) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 52) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 52) Server -> Client : 10605 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 54)  PROXIED!
+[Network Analyzer (5170:1a5c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (2980:26b4)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2980:26b4)] SSLAccept(ssl_id = 251670832 = 0F003130) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:26b4)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 54) Connection Terminated (by Client)
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2b74)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1704)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3554)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 55)  PROXIED!
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 55) Client -> Server @ : 689 bytes (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 56)  PROXIED!
+[Web Request      (2980:50e8)] "GET /header/01/gerb.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 56) Client -> Server @ : 741 bytes (Service=HTTP)
+[Network Analyzer (2980:2b74)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 55) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 56) Server -> Client : 9202 bytes  (Service=HTTP)
+[Network Analyzer (2980:1704)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 58)  PROXIED!
+[Web Request      (2980:50e8)] "GET /img/form.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 57) Client -> Server @ : 735 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/e.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 55) Client -> Server @ : 738 bytes (Service=HTTP)
+[Network Analyzer (2980:3554)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 59)  PROXIED!
+[Web Request      (2980:50e8)] "GET /img/folder_1.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 56) Client -> Server @ : 739 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/0.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 58) Client -> Server @ : 684 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 57) Server -> Client : 519 bytes  (Service=HTTP)
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 60)  PROXIED!
+[Web Request      (2980:50e8)] "GET /header/01/bg_1.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 59) Client -> Server @ : 741 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/line_hor.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 57) Client -> Server @ : 745 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 55) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 56) Server -> Client : 505 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 58) Server -> Client : 2826 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 59) Server -> Client : 391 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 57) Server -> Client : 421 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 59) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 59) Server -> Client : 1597 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=10&utmn=1124349872&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=647887631&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D12000009%26tvd%3D2012000364371%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D1%26sub_region%3D1%26type%3D0%26vibid%3D2012000364371&utmht=1575203234699&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid: 38) Client -> Server @ : 1435 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 38) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 61)  PROXIED!
+[Network Analyzer (2980:4a80)]   (Sid: 61) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2980:4a80)] SSLAccept(ssl_id = 251650168 = 0EFFE078) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:4a80)]   (Sid: 61) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 61) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 52) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent UC01_TR05_Region_website [Network Analyzer (5170:1a5c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 55) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 56) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 58) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 57) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 59) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 41) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 53) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 60) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 42) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR06_Choose_UIK [Network Analyzer (2980:3554)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 62)  PROXIED!
+[Web Request      (2980:50e8)] "GET /region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"   
+[Network Analyzer (2980:50e8)]   (Sid: 62) Client -> Server @ : 871 bytes (Service=HTTP)
+[Network Analyzer (2980:3554)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 63)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 62) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 62) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 62) Server -> Client : 9456 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 62) Client -> Server @ : 825 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/gerb.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 63) Client -> Server @ : 877 bytes (Service=HTTP)
+[Network Analyzer (2980: c78)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2b74)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 62) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 63) Server -> Client : 330 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/e.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 62) Client -> Server @ : 872 bytes (Service=HTTP)
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 64)  PROXIED!
+[Web Request      (2980:50e8)] "GET /css/0.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 63) Client -> Server @ : 820 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/form.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 64) Client -> Server @ : 870 bytes (Service=HTTP)
+[Network Analyzer (2980: c78)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 65)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 62) Server -> Client : 328 bytes  (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 66)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 63) Server -> Client : 330 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/folder_1.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 65) Client -> Server @ : 874 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 64) Server -> Client : 329 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/bg_1.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 62) Client -> Server @ : 878 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/line_hor.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 63) Client -> Server @ : 879 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 65) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 62) Server -> Client : 331 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 67)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 63) Server -> Client : 328 bytes  (Service=HTTP)
+[Network Analyzer (2980:3b84)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3554)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:3b84)] Request Connection: Remote Server @ 64.233.165.113:443   (Service=)  (Sid= 68)  PROXIED!
+[Network Analyzer (2980:3554)] Request Connection: Remote Server @ 64.233.165.113:443   (Service=)  (Sid= 69)  PROXIED!
+[Network Analyzer (2980:21f4)]   (Sid: 67) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:33f8)]   (Sid: 68) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2980:50e8)] "GET /favicon.ico"   
+[Network Analyzer (2980:50e8)]   (Sid: 63) Client -> Server @ : 473 bytes (Service=HTTP)
+[Network Analyzer (2980:33f8)]   (Sid: 68) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=11&utmn=1358768351&utmhn=www.adygei.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=68524321&utmr=http%3A%2F%2Fwww.vybory.izbirkom.ru%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D12000009%26tvd%3D2012000364371%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D1%26sub_region%3D1%26type%3D0%26vibid%3D2012000364371&utmp=%2Fregion%2Fadygei%3Faction%3Dshow%26global%3Dtrue%26root%3D14001001%26tvd%3D4014001115032%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D1%26sub_region%3D1%26type%3D0%26vibid%3D4014001115032&utmht=1575203321884&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid: 68) Client -> Server @ : 1689 bytes (SSL)(Service=HTTP)
+[Net An. Error    (2980:21f4)] SSLAccept(ssl_id = 251670832 = 0F003130) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:21f4)]   (Sid: 67) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 67) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 63) Server -> Client : 390 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 63) Server -> Client : 586 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 68) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:1bec)]   (Sid: 69) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2980:1bec)]   (Sid: 69) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 70)  PROXIED!
+[Network Analyzer (2980:151c)]   (Sid: 70) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2980:151c)] SSLAccept(ssl_id = 251670832 = 0F003130) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:151c)]   (Sid: 70) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 70) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (2980:2b74)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 71)  PROXIED!
+[User action                 ] EndTransactionEvent UC01_TR06_Choose_UIK [Network Analyzer (2980:50e8)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 64) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 65) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 62) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 63) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR07_UIK_Results [Network Analyzer (2980:50e8)]   (Sid: 66) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 71) Connection Terminated (by Client)
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2b74)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 72)  PROXIED!
+[Web Request      (2980:50e8)] "GET /region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"   
+[Network Analyzer (2980:50e8)]   (Sid: 72) Client -> Server @ : 926 bytes (Service=HTTP)
+[Network Analyzer (2980:2b74)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 73)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 72) Server -> Client : 17 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 72) Server -> Client : 11882 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /css/report.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 72) Client -> Server @ : 834 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/gerb.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 73) Client -> Server @ : 886 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 72) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:1f94)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Web Request      (2980:50e8)] "GET /header/01/e.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 72) Client -> Server @ : 881 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 73) Server -> Client : 330 bytes  (Service=HTTP)
+[Network Analyzer (2980:1f94)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 74)  PROXIED!
+[Network Analyzer (2980: d3c)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Web Request      (2980:50e8)] "GET /css/226.css"   
+[Network Analyzer (2980:50e8)]   (Sid: 73) Client -> Server @ : 742 bytes (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 75)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 72) Server -> Client : 328 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /js/sorter.js"   
+[Network Analyzer (2980:50e8)]   (Sid: 74) Client -> Server @ : 763 bytes (Service=HTTP)
+[Network Analyzer (2980: d3c)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 76)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 73) Server -> Client : 2062 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 74) Server -> Client : 395 bytes  (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/bg_1.gif"   
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:50e8)]   (Sid: 72) Client -> Server @ : 887 bytes (Service=HTTP)
+[Web Request      (2980:50e8)] "GET /header/01/line_hor.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 75) Client -> Server @ : 888 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 74) Server -> Client : 9156 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 72) Server -> Client : 331 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 75) Server -> Client : 328 bytes  (Service=HTTP)
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 77)  PROXIED!
+[Web Request      (2980:50e8)] "GET /__utm.gif?utmwv=5.7.2&utms=12&utmn=1449542534&utmhn=www.adygei.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=2007001748&utmr=0&utmp=%2Fregion%2Fregion%2Fadygei%3Faction%3Dshow%26root%3D14001001%26tvd%3D4014001115032%26vrn%3D100100084849062%26region%3D1%26global%3Dtrue%26sub_region%3D1%26prver%3D0%26pronetvd%3Dnull%26vibid%3D4014001115032%26type%3D226&utmht=1575203361570&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (2980:50e8)]   (Sid: 68) Client -> Server @ : 1466 bytes (SSL)(Service=HTTP)
+[Web Request      (2980:50e8)] "GET /img/e.gif"   
+[Network Analyzer (2980:50e8)]   (Sid: 75) Client -> Server @ : 788 bytes (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 75) Server -> Client : 385 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 68) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 75) Server -> Client : 49 bytes  (Service=HTTP)
+[Network Analyzer (2980:5278)]   (Sid: 77) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2980:5278)] SSLAccept(ssl_id = 251656072 = 0EFFF788) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:5278)]   (Sid: 77) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 77) Connection Terminated (by Client)
+[Network Analyzer (2980: c78)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980: c78)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 78)  PROXIED!
+[Network Analyzer (2980:1470)]   (Sid: 78) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2980:1470)] SSLAccept(ssl_id = 251661976 = 0F000E98) Failed, ctx = 0DFB98A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2980:1470)]   (Sid: 78) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2980:50e8)]   (Sid: 78) Connection Terminated (by Client)
+[Network Analyzer (2980:50e8)]   (Sid: 69) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent UC01_TR07_UIK_Results [Network Analyzer (2980:50e8)]   (Sid: 73) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 74) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 72) Connection Terminated (by Server)
+[Network Analyzer (2980:50e8)]   (Sid: 75) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC01_TR08_Download_results [Network Analyzer (2980:50e8)]   (Sid: 76) Connection Terminated (by Client)
+[Network Analyzer (2980:2c68)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (2980:2c68)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 79)  PROXIED!
+[Network Analyzer (2980: c78)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Web Request      (2980:50e8)] "GET /servlet/ExcelReportVersion?region=1&sub_region=1&root=14001001&global=true&vrn=100100084849062&tvd=4014001115032&type=226&vibid=4014001115032&condition=&action=show&version=null&prver=0&sortorder=0"   
+[Network Analyzer (2980:50e8)]   (Sid: 79) Client -> Server @ : 953 bytes (Service=HTTP)
+[Network Analyzer (2980: c78)] Request Connection: Remote Server @ 91.222.157.3:80   (Service=)  (Sid= 80)  PROXIED!
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 1662 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 4140 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 1387 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 4148 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 1379 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 6908 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 4148 bytes  (Service=HTTP)
+[Network Analyzer (2980:50e8)]   (Sid: 79) Server -> Client : 2680 bytes  (Service=HTTP)
+[Network Analyzer (5170:2d10)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:2d10)] Request Connection: Remote Server @ 137.117.243.30:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (5170:13c8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[User action                 ] EndTransactionEvent UC01_TR08_Download_results [Network Analyzer (5170:41f8)] Address lookup for LAPTOP-LVBJEL6K = 192.168.0.104
+[Network Analyzer (5170:41f8)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 10)  PROXIED!

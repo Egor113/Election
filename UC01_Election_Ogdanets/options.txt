@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Projects\Perfomance lab\Election\UC01_Election_Ogdanets
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\projects\perfomance lab\election\uc01_election_ogdanets\\logfile.log
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\combined_UC01_Election_Ogdanets.c
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c
