@@ -1,5 +1,4 @@
-POST /region/izbirkom HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
+GET /region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null HTTP/1.1
 Referer: http://www.vybory.izbirkom.ru/region/izbirkom
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 Accept-Encoding: gzip, deflate
@@ -7,6 +6,5 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: www.vybory.izbirkom.ru
-Cookie: JSESSIONID=1780988c012f6c06997cabc814fe
-Content-Length: 152
+Cookie: JSESSIONID=180c494a5f979fe2e3bf85cfa01a
 
