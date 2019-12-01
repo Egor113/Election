@@ -6,107 +6,74 @@
                 "stepId": "STEP1",
                 "stepName": "Url: www.vybory.izbirkom.ru",
                 "infFile": "t1.inf",
-                "time": 1575204449961
+                "time": 1575210322052
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: izbirkom",
                 "infFile": "t2.inf",
-                "time": 1575204450096
+                "time": 1575210322198
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: Выборы Президента Российской Федерации",
                 "infFile": "t3.inf",
-                "time": 1575204450178
+                "time": 1575210323150
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: izbirkom_2",
                 "infFile": "t4.inf",
-                "time": 1575204450246
+                "time": 1575210323614
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: izbirkom_3",
                 "infFile": "t5.inf",
-                "time": 1575204450314
+                "time": 1575210324389
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Url: сайт избирательной комиссии субъекта Российской Федерации",
                 "infFile": "t6.inf",
-                "time": 1575204450398
-            },
-            {
-                "stepId": "STEP7",
-                "stepName": "Url: adygei",
-                "infFile": "t7.inf",
-                "time": 1575204450464
-            },
-            {
-                "stepId": "STEP8",
-                "stepName": "Url: Итоги голосовани",
-                "infFile": "t8.inf",
-                "time": 1575204450544
+                "time": 1575210326736
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC01_TR01_Choose_date",
-                "rawStartTime": 1575204449963,
-                "rawEndTime": 1575204450097,
+                "rawStartTime": 1575210322054,
+                "rawEndTime": 1575210322199,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01913738250732422
+                "wastedTime": 0.02123856544494629
             },
             {
                 "transactionName": "UC01_TR02_President_election",
-                "rawStartTime": 1575204450102,
-                "rawEndTime": 1575204450179,
+                "rawStartTime": 1575210322203,
+                "rawEndTime": 1575210323151,
                 "thinkTime": 0.0,
-                "wastedTime": 0.017943859100341798
+                "wastedTime": 0.017009973526000978
             },
             {
                 "transactionName": "UC01_TR03_Region",
-                "rawStartTime": 1575204450181,
-                "rawEndTime": 1575204450248,
+                "rawStartTime": 1575210323153,
+                "rawEndTime": 1575210323616,
                 "thinkTime": 0.0,
-                "wastedTime": 0.009989738464355469
+                "wastedTime": 0.009084701538085938
             },
             {
                 "transactionName": "UC01_TR04_Subregion",
-                "rawStartTime": 1575204450250,
-                "rawEndTime": 1575204450316,
+                "rawStartTime": 1575210323618,
+                "rawEndTime": 1575210324391,
                 "thinkTime": 0.0,
-                "wastedTime": 0.012339591979980469
+                "wastedTime": 0.01597452163696289
             },
             {
                 "transactionName": "UC01_TR05_Region_website",
-                "rawStartTime": 1575204450320,
-                "rawEndTime": 1575204450400,
+                "rawStartTime": 1575210324395,
+                "rawEndTime": 1575214148020,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01470184326171875
-            },
-            {
-                "transactionName": "UC01_TR06_Choose_UIK",
-                "rawStartTime": 1575204450402,
-                "rawEndTime": 1575204450465,
-                "thinkTime": 0.0,
-                "wastedTime": 0.010672330856323243
-            },
-            {
-                "transactionName": "UC01_TR07_UIK_Results",
-                "rawStartTime": 1575204450468,
-                "rawEndTime": 1575204450546,
-                "thinkTime": 0.0,
-                "wastedTime": 0.013956308364868164
-            },
-            {
-                "transactionName": "UC01_TR08_Download_results",
-                "rawStartTime": 1575204450550,
-                "rawEndTime": 1575204450552,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0
+                "wastedTime": 0.011809349060058594
             }
         ]
     }

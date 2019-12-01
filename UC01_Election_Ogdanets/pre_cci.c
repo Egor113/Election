@@ -2690,6 +2690,12 @@ Action()
 
 	lr_start_transaction("UC01_TR05_Region_website");
 
+	web_reg_save_param("UIK_ID",
+                 "LB=type=0&amp;vibid=",
+                 "RB=\">",
+				 "Ord=All",
+				 "LAST");
+	
 	web_url("сайт избирательной комиссии субъекта Российской Федерации", 
 		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371", 
 		"TargetFrame=", 
