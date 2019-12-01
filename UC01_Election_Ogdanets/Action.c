@@ -1,3 +1,5 @@
+int i;
+
 Action()
 {
 
@@ -91,7 +93,7 @@ Action()
 
 	lr_start_transaction("UC01_TR05_Region_website");
 
-	web_reg_save_param("UIK_ID",
+	web_reg_save_param("UIK_IDs",
                  "LB=type=0&amp;vibid=",
                  "RB=\">",
 				 "Ord=All",
@@ -107,43 +109,62 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
+//		for (i=1;i<=atoi(lr_eval_string("{c_flightids_count}"));i++)
+//	 {
+//		 lr_param_sprintf("c_buffer", "%sflightID=%s&",
+//		   lr_eval_string("{c_buffer}"),
+//		   lr_paramarr_idx("c_flightids",
+//		   i));		
+//	}
+	
+			
+	
+	
 	lr_end_transaction("UC01_TR05_Region_website",LR_AUTO);
+	
+	for (i=6;i<=atoi(lr_eval_string("{UIK_IDs_count}"));i++) {
+		
+		lr_save_string(lr_paramarr_idx("UIK_IDs", i), "UIK_ID");
+		
+		lr_start_transaction("UC01_TR06_Choose_UIK");
 
-	lr_start_transaction("UC01_TR06_Choose_UIK");
+		lr_think_time(86);
+	
+		web_url("adygei", 
+			"URL=http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd={UIK_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid={UIK_ID}", 
+			"TargetFrame=", 
+			"Resource=0", 
+			"RecContentType=text/html", 
+			"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371", 
+			"Snapshot=t8.inf", 
+			"Mode=HTML", 
+			LAST);
+	
+		lr_end_transaction("UC01_TR06_Choose_UIK",LR_AUTO);
+	
+		lr_start_transaction("UC01_TR07_UIK_Results");
+	
+		lr_think_time(38);
+	
+		web_url("Итоги голосовани", 
+			"URL=http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd={UIK_ID}&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid={UIK_ID}&type=226", 
+			"TargetFrame=", 
+			"Resource=0", 
+			"RecContentType=text/html", 
+			"Referer=http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd={UIK_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid={UIK_ID}", 
+			"Snapshot=t9.inf", 
+			"Mode=HTML", 
+			LAST);
+	
+		lr_end_transaction("UC01_TR07_UIK_Results",LR_AUTO);
+	
+		lr_start_transaction("UC01_TR08_Download_results");
+	
+		lr_end_transaction("UC01_TR08_Download_results",LR_AUTO);
+		
+	}
 
-	lr_think_time(86);
-
-	web_url("adygei", 
-		"URL=http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371", 
-		"Snapshot=t8.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	lr_end_transaction("UC01_TR06_Choose_UIK",LR_AUTO);
-
-	lr_start_transaction("UC01_TR07_UIK_Results");
-
-	lr_think_time(38);
-
-	web_url("Итоги голосовани", 
-		"URL=http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032", 
-		"Snapshot=t9.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	lr_end_transaction("UC01_TR07_UIK_Results",LR_AUTO);
-
-	lr_start_transaction("UC01_TR08_Download_results");
-
-	lr_end_transaction("UC01_TR08_Download_results",LR_AUTO);
+	
 
 	return 0;
 }
