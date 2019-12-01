@@ -68,6 +68,12 @@ Action()
 
 	lr_think_time(62);
 
+	web_reg_save_param("Subregion_ID",
+                 "LB=type=0&amp;vibid=",
+                 "RB=\">",
+				 //"Ord=All",
+				 LAST);
+	
 	web_url("izbirkom_2", 
 		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd={Region_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid={Region_ID}", 
 		"TargetFrame=", 
@@ -85,7 +91,7 @@ Action()
 	lr_think_time(18);
 
 	web_url("izbirkom_3", 
-		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371", 
+		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd={Subregion_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid={Subregion_ID}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -107,26 +113,15 @@ Action()
 				 LAST);
 	
 	web_url("сайт избирательной комиссии субъекта Российской Федерации", 
-		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371", 
+		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd={Subregion_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid={Subregion_ID}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371", 
+		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd={Subregion_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid={Subregion_ID}", 
 		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		LAST);
 
-//		for (i=1;i<=atoi(lr_eval_string("{c_flightids_count}"));i++)
-//	 {
-//		 lr_param_sprintf("c_buffer", "%sflightID=%s&",
-//		   lr_eval_string("{c_buffer}"),
-//		   lr_paramarr_idx("c_flightids",
-//		   i));		
-//	}
-	
-			
-	
-	
 	lr_end_transaction("UC01_TR05_Region_website",LR_AUTO);
 	
 	for (i=6;i<=atoi(lr_eval_string("{UIK_IDs_count}"));i++) {
@@ -142,7 +137,7 @@ Action()
 			"TargetFrame=", 
 			"Resource=0", 
 			"RecContentType=text/html", 
-			"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371", 
+			"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd={Subregion_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid={Subregion_ID}", 
 			"Snapshot=t8.inf", 
 			"Mode=HTML", 
 			LAST);
@@ -154,12 +149,12 @@ Action()
 		lr_think_time(38);
 		
 		web_reg_save_param("Region",
-                 "LB=\">",
+                 "LB=tvd={Region_ID}\">",
                  "RB=</a> &gt;",
 				 LAST);
 	
-		web_reg_save_param("Region",
-                 "LB=\">",
+		web_reg_save_param("Subregion",
+                 "LB=tvd={Subregion_ID}\">",
                  "RB=</a> &gt;",
 				 LAST);
 		
