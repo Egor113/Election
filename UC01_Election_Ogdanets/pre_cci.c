@@ -2599,6 +2599,7 @@ vuser_init()
 # 1 "Action.c" 1
 int i;
 char FileLocation[1024] = "..\\election_results.txt";
+long FileVarriable;  
 
 Action()
 {
@@ -2723,7 +2724,9 @@ Action()
 
 	lr_end_transaction("UC01_TR05_Region_website",2);
 	
-	for (i=6;i<=atoi(lr_eval_string("{UIK_IDs_count}"));i++) {
+	FileVarriable = fopen (FileLocation,"w+");
+	
+	for (i=1;i<=atoi(lr_eval_string("{UIK_IDs_count}"));i++) {
 		
 		lr_save_string(lr_paramarr_idx("UIK_IDs", i), "UIK_ID");
 		
@@ -2757,6 +2760,51 @@ Action()
                  "RB=</a> &gt;",
 				 "LAST");
 		
+		web_reg_save_param("UIK",
+                 "LB=tvd={UIK_ID}\">УИК №",
+                 "RB=</a>",
+				 "LAST");
+				
+		web_reg_save_param("Baburin",
+                 "LB=Бабурин Сергей Николаевич</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
+		web_reg_save_param("Grudinin",
+                 "LB=Грудинин Павел Николаевич</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
+		web_reg_save_param("Zirinovski",
+                 "LB=Жириновский Владимир Вольфович</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
+		web_reg_save_param("Putin",
+                 "LB=Путин Владимир Владимирович</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
+		web_reg_save_param("Sobchak",
+                 "LB=Собчак Ксения Анатольевна</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
+		web_reg_save_param("Syraikin",
+                 "LB=Сурайкин Максим Александрович</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
+		web_reg_save_param("Titov",
+                 "LB=Титов Борис Юрьевич</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
+		web_reg_save_param("Yavlinski",
+                 "LB=Явлинский Григорий Алексеевич</td><td style=\"color:black\" align=\"right\"><b>",
+                 "RB=<",
+				 "LAST");
+		
 		web_url("Итоги голосовани", 
 			"URL=http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd={UIK_ID}&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid={UIK_ID}&type=226", 
 			"TargetFrame=", 
@@ -2767,10 +2815,23 @@ Action()
 			"Mode=HTML", 
 			"LAST");
 		
- 
- 
- 
-	
+		lr_param_sprintf("results","%s %s УИК #%s %s %s %s %s %s %s %s %s",
+		                 lr_eval_string("{Region}"),
+		                 lr_eval_string("{Subregion}"),
+		                 lr_eval_string("{UIK}"),
+		                 lr_eval_string("{Baburin}"),
+		                 lr_eval_string("{Grudinin}"),
+		                 lr_eval_string("{Zirinovski}"),
+		                 lr_eval_string("{Putin}"),
+		                 lr_eval_string("{Sobchak}"),
+		                 lr_eval_string("{Syraikin}"),
+		                 lr_eval_string("{Titov}"),
+		                 lr_eval_string("{Yavlinski}"));
+
+		
+		
+     	fprintf (FileVarriable, "%s \n", lr_eval_string("{results}")); 
+     		
 		lr_end_transaction("UC01_TR07_UIK_Results",2);
 	
 		lr_start_transaction("UC01_TR08_Download_results");
@@ -2778,8 +2839,8 @@ Action()
 		lr_end_transaction("UC01_TR08_Download_results",2);
 		
 	}
-
 	
+	fclose (FileVarriable);
 
 	return 0;
 }
