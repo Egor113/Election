@@ -31,6 +31,7 @@
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UC01_Election_Ogdanets.c.pickle" Filter="1" />
     <FileEntry Name="UC01_Election_Ogdanets.ci" Filter="1" />
+    <FileEntry Name="UC01_Election_Ogdanets.prm" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
