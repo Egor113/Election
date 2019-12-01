@@ -2598,6 +2598,7 @@ vuser_init()
 
 # 1 "Action.c" 1
 int i;
+char FileLocation[1024] = "..\\election_results.txt";
 
 Action()
 {
@@ -2644,6 +2645,12 @@ Action()
 
 	lr_start_transaction("UC01_TR02_President_election");
 
+	web_reg_save_param("Region_ID",
+                 "LB=type=0&amp;vibid=",
+                 "RB=\">",
+				  
+				 "LAST");
+	
 	web_url("Выборы Президента Российской Федерации", 
 		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null", 
 		"TargetFrame=", 
@@ -2661,7 +2668,7 @@ Action()
 	lr_think_time(62);
 
 	web_url("izbirkom_2", 
-		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067", 
+		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd={Region_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid={Region_ID}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -2681,7 +2688,7 @@ Action()
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067", 
+		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd={Region_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid={Region_ID}", 
 		"Snapshot=t6.inf", 
 		"Mode=HTML", 
 		"LAST");
@@ -2744,7 +2751,17 @@ Action()
 		lr_start_transaction("UC01_TR07_UIK_Results");
 	
 		lr_think_time(38);
+		
+		web_reg_save_param("Region",
+                 "LB=\">",
+                 "RB=</a> &gt;",
+				 "LAST");
 	
+		web_reg_save_param("Region",
+                 "LB=\">",
+                 "RB=</a> &gt;",
+				 "LAST");
+		
 		web_url("Итоги голосовани", 
 			"URL=http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd={UIK_ID}&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid={UIK_ID}&type=226", 
 			"TargetFrame=", 
@@ -2754,6 +2771,10 @@ Action()
 			"Snapshot=t9.inf", 
 			"Mode=HTML", 
 			"LAST");
+		
+ 
+ 
+ 
 	
 		lr_end_transaction("UC01_TR07_UIK_Results",2);
 	

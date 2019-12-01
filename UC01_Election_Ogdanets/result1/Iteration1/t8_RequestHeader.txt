@@ -6,5 +6,5 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: www.adygei.vybory.izbirkom.ru
-Cookie: JSESSIONID=239e29a80fcf63d81e81c05e31f7
+Cookie: JSESSIONID=25e7250b99789bcad2d50b1eddf0
 

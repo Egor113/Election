@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 01 Dec 2019 16:09:58 GMT
+Date: Sun, 01 Dec 2019 16:30:42 GMT
 Content-Type: text/html;charset=Windows-1251
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: JSP/2.3
-Set-Cookie: JSESSIONID=239d678d007e74257faaf5b4bf0b; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=25e679805bd93b57f87f18adc987; Path=/; HttpOnly
 Expires: now
 Cache-Control: no-cache
 X-Content-Encoding-Over-Network: gzip
