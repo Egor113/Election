@@ -1,0 +1,10 @@
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:138: error: syntax error; found `for' expecting `;'
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:141: warning: missing return value
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:142: error: unrecognized declaration
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:187: error: syntax error; found "UC01_TR06_UIKs ... expecting `)'
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:187: error: skipping "UC01_TR06_UIKs ... `,' `2'
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:189: error: unrecognized declaration
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:189: error: unrecognized declaration
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:189: warning: empty declaration
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: Election_results.c:190: error: unrecognized declaration
+c:\projects\perfomance lab\election\uc01_election_ogdanets\\pre_cci.c: c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c:7: error: 7 errors, not writing pre_cci.ci

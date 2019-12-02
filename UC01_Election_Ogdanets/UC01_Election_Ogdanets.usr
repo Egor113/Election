@@ -58,7 +58,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC01_TR01_Choose_date__*delimiter*__UC01_TR02_President_election__*delimiter*__UC01_TR03_Region__*delimiter*__UC01_TR04_Subregion__*delimiter*__UC01_TR05_Region_website__*delimiter*__UC01_TR06_Choose_UIK__*delimiter*__UC01_TR07_UIK_Results__*delimiter*__UC01_TR08_Download_results__*delimiter*__UC01_TR01_Choose_date__*delimiter*__UC01_TR02_President_election__*delimiter*__UC01_TR03_Regions__*delimiter*__UC01_TR04_Region__*delimiter*__UC01_TR05_Subregion__*delimiter*__UC01_TR06_UIKs"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=0
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

@@ -1,4 +1,4 @@
-Virtual User Script started at: 02.12.2019 20:59:38
+Virtual User Script started at: 02.12.2019 21:53:54
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -9,94 +9,237 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Election_results.
-Election_results.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
-Election_results.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Election_results.c(6): web_url("www.vybory.izbirkom.ru") started  	[MsgId: MMSG-26355]
-Election_results.c(6): Redirecting "http://www.vybory.izbirkom.ru/" (redirection depth is 0)  	[MsgId: MMSG-26694]
-Election_results.c(6): To location "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26693]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(6): web_url("www.vybory.izbirkom.ru") was successful, 347242 body bytes, 5105 header bytes, 50 chunking overhead bytes  	[MsgId: MMSG-26385]
-Election_results.c(16): Notify: Transaction "UC01_TR01_Choose_date" started.
-Election_results.c(18): web_submit_data("izbirkom") started  	[MsgId: MMSG-26355]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Election_results.c(18): web_submit_data("izbirkom") was successful, 314951 body bytes, 4703 header bytes, 49 chunking overhead bytes  	[MsgId: MMSG-26385]
-Election_results.c(38): Notify: Transaction "UC01_TR01_Choose_date" ended with a "Pass" status (Duration: 0,1492 Wasted Time: 0,0185).
-Election_results.c(42): Notify: Transaction "UC01_TR02_President_election" started.
-Election_results.c(44): web_url("Выборы Президента Российской Федерации") started  	[MsgId: MMSG-26355]
-Election_results.c(44): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Election_results.c(44): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Election_results.c(44): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Election_results.c(44): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Election_results.c(44): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Election_results.c(44): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Election_results.c(44): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Election_results.c(44): web_url("Выборы Президента Российской Федерации") was successful, 95604 body bytes, 3149 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
-Election_results.c(54): Notify: Transaction "UC01_TR02_President_election" ended with a "Pass" status (Duration: 0,1151 Wasted Time: 0,0192).
-Election_results.c(58): Notify: Transaction "UC01_TR03_Regions" started.
-Election_results.c(60): web_url("Сводна таблица результатов выборов") started  	[MsgId: MMSG-26355]
-Election_results.c(60): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(60): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(60): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(60): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(60): Found resource "http://www.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(60): Found resource "http://www.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(60): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(60): web_url("Сводна таблица результатов выборов") was successful, 267594 body bytes, 3155 header bytes, 71 chunking overhead bytes  	[MsgId: MMSG-26385]
-Election_results.c(70): Notify: Transaction "UC01_TR03_Regions" ended with a "Pass" status (Duration: 0,1310 Wasted Time: 0,0168).
-Election_results.c(74): Notify: Transaction "UC01_TR04_Region" started.
-Election_results.c(76): web_url("Республика Адыге (Адыге)") started  	[MsgId: MMSG-26355]
-Election_results.c(76): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(76): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(76): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(76): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(76): Found resource "http://www.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(76): Found resource "http://www.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(76): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(76): web_url("Республика Адыге (Адыге)") was successful, 89385 body bytes, 3155 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
-Election_results.c(86): Notify: Transaction "UC01_TR04_Region" ended with a "Pass" status (Duration: 0,0976 Wasted Time: 0,0114).
-Election_results.c(90): Notify: Transaction "UC01_TR05_Subregion" started.
-Election_results.c(92): web_url("Адыгейска") started  	[MsgId: MMSG-26355]
-Election_results.c(92): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(92): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(92): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(92): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(92): Found resource "http://www.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(92): Found resource "http://www.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(92): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
-Election_results.c(92): web_url("Адыгейска") was successful, 68649 body bytes, 3084 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
-Election_results.c(102): Notify: Transaction "UC01_TR05_Subregion" ended with a "Pass" status (Duration: 0,0605 Wasted Time: 0,0111).
-Election_results.c(106): Notify: Transaction "UC01_TR06_UIKs" started.
-Election_results.c(108): web_url("сайт избирательной комиссии субъекта Российской Федерации") started  	[MsgId: MMSG-26355]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): Found resource "http://www.adygei.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Election_results.c(108): web_url("сайт избирательной комиссии субъекта Российской Федерации") was successful, 65096 body bytes, 3493 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
-Election_results.c(118): Notify: Transaction "UC01_TR06_UIKs" ended with a "Pass" status (Duration: 0,0866 Wasted Time: 0,0116).
+Election_results.c(15): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Election_results.c(15): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Election_results.c(17): web_url("www.vybory.izbirkom.ru") started  	[MsgId: MMSG-26355]
+Election_results.c(17): Redirecting "http://www.vybory.izbirkom.ru/" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Election_results.c(17): To location "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26693]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(17): web_url("www.vybory.izbirkom.ru") was successful, 347242 body bytes, 5105 header bytes, 50 chunking overhead bytes  	[MsgId: MMSG-26385]
+Election_results.c(27): Notify: Transaction "UC01_TR01_Choose_date" started.
+Election_results.c(29): web_submit_data("izbirkom") started  	[MsgId: MMSG-26355]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Election_results.c(29): web_submit_data("izbirkom") was successful, 314951 body bytes, 4703 header bytes, 49 chunking overhead bytes  	[MsgId: MMSG-26385]
+Election_results.c(49): Notify: Transaction "UC01_TR01_Choose_date" ended with a "Pass" status (Duration: 0,1981 Wasted Time: 0,0195).
+Election_results.c(53): Notify: Transaction "UC01_TR02_President_election" started.
+Election_results.c(55): web_url("Выборы Президента Российской Федерации") started  	[MsgId: MMSG-26355]
+Election_results.c(55): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Election_results.c(55): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Election_results.c(55): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Election_results.c(55): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Election_results.c(55): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Election_results.c(55): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Election_results.c(55): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Election_results.c(55): web_url("Выборы Президента Российской Федерации") was successful, 95604 body bytes, 3149 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
+Election_results.c(65): Notify: Transaction "UC01_TR02_President_election" ended with a "Pass" status (Duration: 0,5431 Wasted Time: 0,0187).
+Election_results.c(69): Notify: Transaction "UC01_TR03_Regions" started.
+Election_results.c(71): web_url("Сводна таблица результатов выборов") started  	[MsgId: MMSG-26355]
+Election_results.c(71): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(71): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(71): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(71): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(71): Found resource "http://www.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(71): Found resource "http://www.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(71): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(71): web_url("Сводна таблица результатов выборов") was successful, 267594 body bytes, 3155 header bytes, 71 chunking overhead bytes  	[MsgId: MMSG-26385]
+Election_results.c(81): Notify: Transaction "UC01_TR03_Regions" ended with a "Pass" status (Duration: 0,5344 Wasted Time: 0,0158).
+Election_results.c(85): Notify: Transaction "UC01_TR04_Region" started.
+Election_results.c(87): web_url("Республика Адыге (Адыге)") started  	[MsgId: MMSG-26355]
+Election_results.c(87): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(87): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(87): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(87): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(87): Found resource "http://www.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(87): Found resource "http://www.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(87): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(87): web_url("Республика Адыге (Адыге)") was successful, 89385 body bytes, 3155 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
+Election_results.c(97): Notify: Transaction "UC01_TR04_Region" ended with a "Pass" status (Duration: 0,4676 Wasted Time: 0,0114).
+Election_results.c(101): Notify: Transaction "UC01_TR05_Subregion" started.
+Election_results.c(103): web_url("Адыгейска") started  	[MsgId: MMSG-26355]
+Election_results.c(103): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(103): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(103): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(103): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(103): Found resource "http://www.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(103): Found resource "http://www.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(103): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"  	[MsgId: MMSG-26659]
+Election_results.c(103): web_url("Адыгейска") was successful, 68649 body bytes, 3155 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
+Election_results.c(113): Notify: Transaction "UC01_TR05_Subregion" ended with a "Pass" status (Duration: 0,2482 Wasted Time: 0,0135).
+Election_results.c(117): Notify: Transaction "UC01_TR06_UIKs" started.
+Election_results.c(119): web_reg_save_param started  	[MsgId: MMSG-26355]
+Election_results.c(119): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Election_results.c(125): web_url("сайт избирательной комиссии субъекта Российской Федерации") started  	[MsgId: MMSG-26355]
+Election_results.c(125): Notify: Saving Parameter "Results_1 = 11624".
+Election_results.c(125): Notify: Saving Parameter "Results_2 = 11350".
+Election_results.c(125): Notify: Saving Parameter "Results_3 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_4 = 10833".
+Election_results.c(125): Notify: Saving Parameter "Results_5 = 399".
+Election_results.c(125): Notify: Saving Parameter "Results_6 = 118".
+Election_results.c(125): Notify: Saving Parameter "Results_7 = 399".
+Election_results.c(125): Notify: Saving Parameter "Results_8 = 10833".
+Election_results.c(125): Notify: Saving Parameter "Results_9 = 57".
+Election_results.c(125): Notify: Saving Parameter "Results_10 = 11175".
+Election_results.c(125): Notify: Saving Parameter "Results_11 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_12 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_13 = 24".
+Election_results.c(125): Notify: Saving Parameter "Results_14 = 655".
+Election_results.c(125): Notify: Saving Parameter "Results_15 = 149".
+Election_results.c(125): Notify: Saving Parameter "Results_16 = 10229".
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/css/227.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Found resource "http://www.adygei.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Election_results.c(125): Notify: Saving Parameter "Results_17 = 62".
+Election_results.c(125): Notify: Saving Parameter "Results_18 = 16".
+Election_results.c(125): Notify: Saving Parameter "Results_19 = 15".
+Election_results.c(125): Notify: Saving Parameter "Results_20 = 25".
+Election_results.c(125): Notify: Saving Parameter "Results_21 = 2256".
+Election_results.c(125): Notify: Saving Parameter "Results_22 = 2700".
+Election_results.c(125): Notify: Saving Parameter "Results_23 = 2858".
+Election_results.c(125): Notify: Saving Parameter "Results_24 = 2066".
+Election_results.c(125): Notify: Saving Parameter "Results_25 = 700".
+Election_results.c(125): Notify: Saving Parameter "Results_26 = 1044".
+Election_results.c(125): Notify: Saving Parameter "Results_27 = 2181".
+Election_results.c(125): Notify: Saving Parameter "Results_28 = 2633".
+Election_results.c(125): Notify: Saving Parameter "Results_29 = 2752".
+Election_results.c(125): Notify: Saving Parameter "Results_30 = 2034".
+Election_results.c(125): Notify: Saving Parameter "Results_31 = 714".
+Election_results.c(125): Notify: Saving Parameter "Results_32 = 1036".
+Election_results.c(125): Notify: Saving Parameter "Results_33 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_34 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_35 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_36 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_37 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_38 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_39 = 2107".
+Election_results.c(125): Notify: Saving Parameter "Results_40 = 2575".
+Election_results.c(125): Notify: Saving Parameter "Results_41 = 2664".
+Election_results.c(125): Notify: Saving Parameter "Results_42 = 1857".
+Election_results.c(125): Notify: Saving Parameter "Results_43 = 676".
+Election_results.c(125): Notify: Saving Parameter "Results_44 = 954".
+Election_results.c(125): Notify: Saving Parameter "Results_45 = 62".
+Election_results.c(125): Notify: Saving Parameter "Results_46 = 41".
+Election_results.c(125): Notify: Saving Parameter "Results_47 = 75".
+Election_results.c(125): Notify: Saving Parameter "Results_48 = 142".
+Election_results.c(125): Notify: Saving Parameter "Results_49 = 11".
+Election_results.c(125): Notify: Saving Parameter "Results_50 = 68".
+Election_results.c(125): Notify: Saving Parameter "Results_51 = 12".
+Election_results.c(125): Notify: Saving Parameter "Results_52 = 17".
+Election_results.c(125): Notify: Saving Parameter "Results_53 = 13".
+Election_results.c(125): Notify: Saving Parameter "Results_54 = 35".
+Election_results.c(125): Notify: Saving Parameter "Results_55 = 27".
+Election_results.c(125): Notify: Saving Parameter "Results_56 = 14".
+Election_results.c(125): Notify: Saving Parameter "Results_57 = 62".
+Election_results.c(125): Notify: Saving Parameter "Results_58 = 41".
+Election_results.c(125): Notify: Saving Parameter "Results_59 = 75".
+Election_results.c(125): Notify: Saving Parameter "Results_60 = 142".
+Election_results.c(125): Notify: Saving Parameter "Results_61 = 11".
+Election_results.c(125): Notify: Saving Parameter "Results_62 = 68".
+Election_results.c(125): Notify: Saving Parameter "Results_63 = 2107".
+Election_results.c(125): Notify: Saving Parameter "Results_64 = 2575".
+Election_results.c(125): Notify: Saving Parameter "Results_65 = 2664".
+Election_results.c(125): Notify: Saving Parameter "Results_66 = 1857".
+Election_results.c(125): Notify: Saving Parameter "Results_67 = 676".
+Election_results.c(125): Notify: Saving Parameter "Results_68 = 954".
+Election_results.c(125): Notify: Saving Parameter "Results_69 = 3".
+Election_results.c(125): Notify: Saving Parameter "Results_70 = 22".
+Election_results.c(125): Notify: Saving Parameter "Results_71 = 5".
+Election_results.c(125): Notify: Saving Parameter "Results_72 = 21".
+Election_results.c(125): Notify: Saving Parameter "Results_73 = 3".
+Election_results.c(125): Notify: Saving Parameter "Results_74 = 3".
+Election_results.c(125): Notify: Saving Parameter "Results_75 = 2166".
+Election_results.c(125): Notify: Saving Parameter "Results_76 = 2594".
+Election_results.c(125): Notify: Saving Parameter "Results_77 = 2734".
+Election_results.c(125): Notify: Saving Parameter "Results_78 = 1978".
+Election_results.c(125): Notify: Saving Parameter "Results_79 = 684".
+Election_results.c(125): Notify: Saving Parameter "Results_80 = 1019".
+Election_results.c(125): Notify: Saving Parameter "Results_81 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_82 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_83 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_84 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_85 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_86 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_87 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_88 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_89 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_90 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_91 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_92 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_93 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_94 = 15".
+Election_results.c(125): Notify: Saving Parameter "Results_95 = 1".
+Election_results.c(125): Notify: Saving Parameter "Results_96 = 5".
+Election_results.c(125): Notify: Saving Parameter "Results_97 = 2".
+Election_results.c(125): Notify: Saving Parameter "Results_98 = 1".
+Election_results.c(125): Notify: Saving Parameter "Results_99 = 137".
+Election_results.c(125): Notify: Saving Parameter "Results_100 = 86".
+Election_results.c(125): Notify: Saving Parameter "Results_101 = 62".
+Election_results.c(125): Notify: Saving Parameter "Results_102 = 288".
+Election_results.c(125): Notify: Saving Parameter "Results_103 = 44".
+Election_results.c(125): Notify: Saving Parameter "Results_104 = 38".
+Election_results.c(125): Notify: Saving Parameter "Results_105 = 32".
+Election_results.c(125): Notify: Saving Parameter "Results_106 = 65".
+Election_results.c(125): Notify: Saving Parameter "Results_107 = 13".
+Election_results.c(125): Notify: Saving Parameter "Results_108 = 12".
+Election_results.c(125): Notify: Saving Parameter "Results_109 = 6".
+Election_results.c(125): Notify: Saving Parameter "Results_110 = 21".
+Election_results.c(125): Notify: Saving Parameter "Results_111 = 1977".
+Election_results.c(125): Notify: Saving Parameter "Results_112 = 2389".
+Election_results.c(125): Notify: Saving Parameter "Results_113 = 2645".
+Election_results.c(125): Notify: Saving Parameter "Results_114 = 1642".
+Election_results.c(125): Notify: Saving Parameter "Results_115 = 624".
+Election_results.c(125): Notify: Saving Parameter "Results_116 = 952".
+Election_results.c(125): Notify: Saving Parameter "Results_117 = 14".
+Election_results.c(125): Notify: Saving Parameter "Results_118 = 13".
+Election_results.c(125): Notify: Saving Parameter "Results_119 = 6".
+Election_results.c(125): Notify: Saving Parameter "Results_120 = 21".
+Election_results.c(125): Notify: Saving Parameter "Results_121 = 6".
+Election_results.c(125): Notify: Saving Parameter "Results_122 = 2".
+Election_results.c(125): Notify: Saving Parameter "Results_123 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_124 = 5".
+Election_results.c(125): Notify: Saving Parameter "Results_125 = 3".
+Election_results.c(125): Notify: Saving Parameter "Results_126 = 6".
+Election_results.c(125): Notify: Saving Parameter "Results_127 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_128 = 2".
+Election_results.c(125): Notify: Saving Parameter "Results_129 = 1".
+Election_results.c(125): Notify: Saving Parameter "Results_130 = 6".
+Election_results.c(125): Notify: Saving Parameter "Results_131 = 4".
+Election_results.c(125): Notify: Saving Parameter "Results_132 = 2".
+Election_results.c(125): Notify: Saving Parameter "Results_133 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_134 = 2".
+Election_results.c(125): Notify: Saving Parameter "Results_135 = 5".
+Election_results.c(125): Notify: Saving Parameter "Results_136 = 15".
+Election_results.c(125): Notify: Saving Parameter "Results_137 = 0".
+Election_results.c(125): Notify: Saving Parameter "Results_138 = 2".
+Election_results.c(125): Notify: Saving Parameter "Results_139 = 2".
+Election_results.c(125): Notify: Saving Parameter "Results_140 = 1".
+Election_results.c(125): Notify: Saving Parameter "Results_count = 140".
+Election_results.c(125): web_url("сайт избирательной комиссии субъекта Российской Федерации") was successful, 65096 body bytes, 3493 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Election_results.c(176): Notify: Transaction "UC01_TR06_UIKs" ended with a "Pass" status (Duration: 0,5515 Wasted Time: 0,0296).
 Ending action Election_results.
 Ending iteration 1.
 Ending Vuser...
