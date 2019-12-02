@@ -1,4 +1,4 @@
-Virtual User Script started at: 01.12.2019 20:43:05
+Virtual User Script started at: 01.12.2019 21:05:14
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -9,138 +9,148 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
-Action.c(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
-Action.c(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-Action.c(10): web_url("www.vybory.izbirkom.ru") started  	[MsgId: MMSG-26355]
-Action.c(10): Redirecting "http://www.vybory.izbirkom.ru/" (redirection depth is 0)  	[MsgId: MMSG-26694]
-Action.c(10): To location "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26693]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(10): web_url("www.vybory.izbirkom.ru") was successful, 347242 body bytes, 5105 header bytes, 50 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(20): Notify: Transaction "UC01_TR01_Choose_date" started.
-Action.c(24): web_submit_data("izbirkom") started  	[MsgId: MMSG-26355]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
-Action.c(24): web_submit_data("izbirkom") was successful, 314951 body bytes, 4632 header bytes, 49 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(44): Notify: Transaction "UC01_TR01_Choose_date" ended with a "Pass" status (Duration: 0,1273 Wasted Time: 0,0170).
-Action.c(48): Notify: Transaction "UC01_TR02_President_election" started.
-Action.c(50): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(50): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-Action.c(56): web_url("Выборы Президента Российской Федерации") started  	[MsgId: MMSG-26355]
-Action.c(56): Notify: Saving Parameter "Region_ID = 100100084849067".
-Action.c(56): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Action.c(56): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Action.c(56): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Action.c(56): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Action.c(56): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Action.c(56): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Action.c(56): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
-Action.c(56): web_url("Выборы Президента Российской Федерации") was successful, 95604 body bytes, 3149 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(66): Notify: Transaction "UC01_TR02_President_election" ended with a "Pass" status (Duration: 0,0716 Wasted Time: 0,0155).
-Action.c(68): Notify: Transaction "UC01_TR03_Region" started.
-Action.c(72): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(72): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-Action.c(78): web_url("izbirkom_2") started  	[MsgId: MMSG-26355]
-Action.c(78): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
-Action.c(78): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
-Action.c(78): Notify: Saving Parameter "Subregion_ID = 2012000364371".
-Action.c(78): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
-Action.c(78): web_url("izbirkom_2") was successful, 73814 body bytes, 3078 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(88): Notify: Transaction "UC01_TR03_Region" ended with a "Pass" status (Duration: 0,0677 Wasted Time: 0,0109).
-Action.c(90): Notify: Transaction "UC01_TR04_Subregion" started.
-Action.c(94): web_url("izbirkom_3") started  	[MsgId: MMSG-26355]
-Action.c(94): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(94): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(94): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
-Action.c(94): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
-Action.c(94): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(94): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(94): web_url("izbirkom_3") was successful, 71001 body bytes, 3149 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(104): Notify: Transaction "UC01_TR04_Subregion" ended with a "Pass" status (Duration: 0,0667 Wasted Time: 0,0111).
-Action.c(108): Notify: Transaction "UC01_TR05_Region_website" started.
-Action.c(110): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(110): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-Action.c(116): web_url("сайт избирательной комиссии субъекта Российской Федерации") started  	[MsgId: MMSG-26355]
-Action.c(116): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(116): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(116): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(116): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(116): Notify: Saving Parameter "UIK_IDs_1 = 4014001115032".
-Action.c(116): Notify: Saving Parameter "UIK_IDs_2 = 4014001115033".
-Action.c(116): Notify: Saving Parameter "UIK_IDs_3 = 4014001115034".
-Action.c(116): Notify: Saving Parameter "UIK_IDs_4 = 4014001115035".
-Action.c(116): Notify: Saving Parameter "UIK_IDs_5 = 4014001115036".
-Action.c(116): Notify: Saving Parameter "UIK_IDs_6 = 4014001115037".
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Found resource "http://www.adygei.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
-Action.c(116): Notify: Saving Parameter "UIK_IDs_count = 6".
-Action.c(116): web_url("сайт избирательной комиссии субъекта Российской Федерации") was successful, 58665 body bytes, 3487 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(126): Notify: Transaction "UC01_TR05_Region_website" ended with a "Pass" status (Duration: 0,1026 Wasted Time: 0,0111).
-Action.c(130): Notify: Parameter Substitution: parameter "UIK_IDs_count" =  "6"
-Action.c(132): Notify: Parameter Substitution: parameter "UIK_IDs_6" =  "4014001115037"
-Action.c(132): Notify: Saving Parameter "UIK_ID = 4014001115037".
-Action.c(134): Notify: Transaction "UC01_TR06_Choose_UIK" started.
-Action.c(138): web_url("adygei") started  	[MsgId: MMSG-26355]
-Action.c(138): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115037"
-Action.c(138): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115037"
-Action.c(138): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(138): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/css/0.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): Found resource "http://www.adygei.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115037&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115037"  	[MsgId: MMSG-26659]
-Action.c(138): web_url("adygei") was successful, 57516 body bytes, 3487 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(148): Notify: Transaction "UC01_TR06_Choose_UIK" ended with a "Pass" status (Duration: 0,0706 Wasted Time: 0,0117).
-Action.c(150): Notify: Transaction "UC01_TR07_UIK_Results" started.
-Action.c(154): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(154): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
-Action.c(154): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_url("www.vybory.izbirkom.ru") started  	[MsgId: MMSG-26355]
+Action.c(11): Redirecting "http://www.vybory.izbirkom.ru/" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(11): To location "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26693]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(11): web_url("www.vybory.izbirkom.ru") was successful, 347242 body bytes, 5105 header bytes, 50 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(21): Notify: Transaction "UC01_TR01_Choose_date" started.
+Action.c(25): web_submit_data("izbirkom") started  	[MsgId: MMSG-26355]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/js/cal/cal.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/js/cal/all.js" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom"  	[MsgId: MMSG-26659]
+Action.c(25): web_submit_data("izbirkom") was successful, 314951 body bytes, 4632 header bytes, 49 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "UC01_TR01_Choose_date" ended with a "Pass" status (Duration: 0,3966 Wasted Time: 0,0159).
+Action.c(49): Notify: Transaction "UC01_TR02_President_election" started.
+Action.c(51): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(57): web_url("Выборы Президента Российской Федерации") started  	[MsgId: MMSG-26355]
+Action.c(57): Notify: Saving Parameter "Region_ID = 100100084849067".
+Action.c(57): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Action.c(57): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Action.c(57): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Action.c(57): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Action.c(57): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Action.c(57): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Action.c(57): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"  	[MsgId: MMSG-26659]
+Action.c(57): web_url("Выборы Президента Российской Федерации") was successful, 95604 body bytes, 3149 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(67): Notify: Transaction "UC01_TR02_President_election" ended with a "Pass" status (Duration: 0,0956 Wasted Time: 0,0174).
+Action.c(69): Notify: Transaction "UC01_TR03_Region" started.
+Action.c(73): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(79): web_url("izbirkom_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
+Action.c(79): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_1 = 2012000364371".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_2 = 2012000364370".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_3 = 2012000364369".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_4 = 2012000364368".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_5 = 2012000364367".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_6 = 2012000364366".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_7 = 2012000364365".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_8 = 2012000364364".
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_9 = 2012000364363".
+Action.c(79): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"  	[MsgId: MMSG-26659]
+Action.c(79): Notify: Saving Parameter "Subregion_IDs_count = 9".
+Action.c(79): web_url("izbirkom_2") was successful, 73814 body bytes, 3078 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Notify: Transaction "UC01_TR03_Region" ended with a "Pass" status (Duration: 0,3978 Wasted Time: 0,0175).
+Action.c(91): Notify: Parameter Substitution: parameter "Subregion_IDs_count" =  "9"
+Action.c(93): Notify: Parameter Substitution: parameter "Subregion_IDs_1" =  "2012000364371"
+Action.c(93): Notify: Saving Parameter "Subregion_ID = 2012000364371".
+Action.c(95): Notify: Transaction "UC01_TR04_Subregion" started.
+Action.c(99): web_url("izbirkom_3") started  	[MsgId: MMSG-26355]
+Action.c(99): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(99): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(99): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
+Action.c(99): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
+Action.c(99): Found resource "http://www.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(99): Found resource "http://www.vybory.izbirkom.ru/header/00/00.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(99): Found resource "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(99): Found resource "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(99): Found resource "http://www.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(99): Found resource "http://www.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(99): Found resource "http://www.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(99): web_url("izbirkom_3") was successful, 71001 body bytes, 3149 header bytes, 61 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(109): Notify: Transaction "UC01_TR04_Subregion" ended with a "Pass" status (Duration: 0,0667 Wasted Time: 0,0131).
+Action.c(113): Notify: Transaction "UC01_TR05_Region_website" started.
+Action.c(115): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(115): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(121): web_url("сайт избирательной комиссии субъекта Российской Федерации") started  	[MsgId: MMSG-26355]
+Action.c(121): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(121): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(121): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(121): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(121): Notify: Saving Parameter "UIK_IDs_1 = 4014001115032".
+Action.c(121): Notify: Saving Parameter "UIK_IDs_2 = 4014001115033".
+Action.c(121): Notify: Saving Parameter "UIK_IDs_3 = 4014001115034".
+Action.c(121): Notify: Saving Parameter "UIK_IDs_4 = 4014001115035".
+Action.c(121): Notify: Saving Parameter "UIK_IDs_5 = 4014001115036".
+Action.c(121): Notify: Saving Parameter "UIK_IDs_6 = 4014001115037".
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/css/0.css" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Found resource "http://www.adygei.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"  	[MsgId: MMSG-26659]
+Action.c(121): Notify: Saving Parameter "UIK_IDs_count = 6".
+Action.c(121): web_url("сайт избирательной комиссии субъекта Российской Федерации") was successful, 58665 body bytes, 3487 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(131): Notify: Transaction "UC01_TR05_Region_website" ended with a "Pass" status (Duration: 0,1154 Wasted Time: 0,0137).
+Action.c(135): Notify: Parameter Substitution: parameter "UIK_IDs_count" =  "6"
+Action.c(137): Notify: Parameter Substitution: parameter "UIK_IDs_1" =  "4014001115032"
+Action.c(137): Notify: Saving Parameter "UIK_ID = 4014001115032".
+Action.c(139): Notify: Transaction "UC01_TR06_Choose_UIK" started.
+Action.c(143): web_url("adygei") started  	[MsgId: MMSG-26355]
+Action.c(143): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115032"
+Action.c(143): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115032"
+Action.c(143): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(143): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/css/0.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/img/form.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): Found resource "http://www.adygei.vybory.izbirkom.ru/img/folder_1.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"  	[MsgId: MMSG-26659]
+Action.c(143): web_url("adygei") was successful, 57516 body bytes, 3487 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(153): Notify: Transaction "UC01_TR06_Choose_UIK" ended with a "Pass" status (Duration: 0,0856 Wasted Time: 0,0102).
+Action.c(155): Notify: Transaction "UC01_TR07_UIK_Results" started.
 Action.c(159): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(159): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
+Action.c(159): Notify: Parameter Substitution: parameter "Region_ID" =  "100100084849067"
 Action.c(159): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(164): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(164): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115037"
+Action.c(164): Notify: Parameter Substitution: parameter "Subregion_ID" =  "2012000364371"
 Action.c(164): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(169): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(169): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115032"
 Action.c(169): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(174): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(174): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
@@ -156,48 +166,37 @@ Action.c(199): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(199): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(204): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(204): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-Action.c(209): web_url("Итоги голосовани") started  	[MsgId: MMSG-26355]
-Action.c(209): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115037"
-Action.c(209): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115037"
-Action.c(209): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115037"
-Action.c(209): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115037"
-Action.c(209): Notify: Saving Parameter "Region = Республика Адыгея (Адыгея)".
-Action.c(209): Notify: Saving Parameter "Subregion = Адыгейская".
-Action.c(209): Notify: Saving Parameter "UIK = 6".
-Action.c(209): Notify: Saving Parameter "Baburin = 1".
-Action.c(209): Notify: Saving Parameter "Grudinin = 38".
-Action.c(209): Notify: Saving Parameter "Zirinovski = 21".
-Action.c(209): Notify: Saving Parameter "Putin = 952".
-Action.c(209): Notify: Saving Parameter "Sobchak = 2".
-Action.c(209): Notify: Saving Parameter "Syraikin = 2".
-Action.c(209): Notify: Saving Parameter "Titov = 2".
-Action.c(209): Notify: Saving Parameter "Yavlinski = 1".
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/css/226.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): Found resource "http://www.adygei.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115037&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115037&type=226"  	[MsgId: MMSG-26659]
-Action.c(209): web_url("Итоги голосовани") was successful, 51744 body bytes, 3493 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(219): Notify: Parameter Substitution: parameter "Region" =  "Республика Адыгея (Адыгея)"
-Action.c(219): Notify: Parameter Substitution: parameter "Subregion" =  "Адыгейская"
-Action.c(219): Notify: Parameter Substitution: parameter "UIK" =  "6"
-Action.c(219): Notify: Parameter Substitution: parameter "Baburin" =  "1"
-Action.c(219): Notify: Parameter Substitution: parameter "Grudinin" =  "38"
-Action.c(219): Notify: Parameter Substitution: parameter "Zirinovski" =  "21"
-Action.c(219): Notify: Parameter Substitution: parameter "Putin" =  "952"
-Action.c(219): Notify: Parameter Substitution: parameter "Sobchak" =  "2"
-Action.c(219): Notify: Parameter Substitution: parameter "Syraikin" =  "2"
-Action.c(219): Notify: Parameter Substitution: parameter "Titov" =  "2"
-Action.c(219): Notify: Parameter Substitution: parameter "Yavlinski" =  "1"
-Action.c(219): Notify: Saving Parameter "results = Республика Адыгея (Адыгея) Адыгейская УИК #6 1 38 21 952 2 2 2 1".
-Action.c(234): Notify: Parameter Substitution: parameter "results" =  "Республика Адыгея (Адыгея) Адыгейская УИК #6 1 38 21 952 2 2 2 1"
-Action.c(236): Notify: Transaction "UC01_TR07_UIK_Results" ended with a "Pass" status (Duration: 0,1235 Wasted Time: 0,0130).
-Action.c(238): Notify: Transaction "UC01_TR08_Download_results" started.
-Action.c(240): Notify: Transaction "UC01_TR08_Download_results" ended with a "Pass" status (Duration: 0,0018).
-Action.c(130): Notify: Parameter Substitution: parameter "UIK_IDs_count" =  "6"
+Action.c(209): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(209): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(214): web_url("Итоги голосовани") started  	[MsgId: MMSG-26355]
+Action.c(214): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115032"
+Action.c(214): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115032"
+Action.c(214): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115032"
+Action.c(214): Notify: Parameter Substitution: parameter "UIK_ID" =  "4014001115032"
+Action.c(214): Notify: Saving Parameter "Subregion = Адыгейская".
+Action.c(214): Notify: Saving Parameter "UIK = 1".
+Action.c(214): Notify: Saving Parameter "Baburin = 0".
+Action.c(214): Notify: Saving Parameter "Grudinin = 137".
+Action.c(214): Notify: Saving Parameter "Zirinovski = 32".
+Action.c(214): Notify: Saving Parameter "Putin = 1977".
+Action.c(214): Notify: Saving Parameter "Sobchak = 14".
+Action.c(214): Notify: Saving Parameter "Syraikin = 0".
+Action.c(214): Notify: Saving Parameter "Titov = 1".
+Action.c(214): Notify: Saving Parameter "Yavlinski = 5".
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/css/report.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/css/226.css" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/js/sorter.js" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Found resource "http://www.adygei.vybory.izbirkom.ru/img/e.gif" in HTML "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"  	[MsgId: MMSG-26659]
+Action.c(214): Error -26377: No match found for the requested parameter "Region". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 51749 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+Action.c(214): Notify: Saving Parameter "Region = ".
+Action.c(214): web_url("Итоги голосовани") highest severity level was "ERROR", 51749 body bytes, 3493 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(214): Notify: Transaction "UC01_TR07_UIK_Results" ended with a "Fail" status (Duration: 0,1394 Wasted Time: 0,0166).
+Action.c(214): Notify: Transaction "UC01_TR07_UIK_Results" has 1 error message(s).
+Action.c(214): Notify: The 1st error message associated with transaction "UC01_TR07_UIK_Results" is "Error -26377: No match found for the requested parameter "Region". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 51749 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

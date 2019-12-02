@@ -1,277 +1,92 @@
 [
     {
-        "actionName": "Action",
+        "actionName": "Election_results",
         "steps": [
             {
                 "stepId": "STEP1",
                 "stepName": "Url: www.vybory.izbirkom.ru",
                 "infFile": "t1.inf",
-                "time": 1575222223550
+                "time": 1575308789655
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: izbirkom",
                 "infFile": "t2.inf",
-                "time": 1575222223686
+                "time": 1575308789868
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: Выборы Президента Российской Федерации",
                 "infFile": "t3.inf",
-                "time": 1575222223771
+                "time": 1575308790511
             },
             {
                 "stepId": "STEP4",
-                "stepName": "Url: izbirkom_2",
+                "stepName": "Url: Сводна таблица результатов выборов",
                 "infFile": "t4.inf",
-                "time": 1575222223845
+                "time": 1575308791072
             },
             {
                 "stepId": "STEP5",
-                "stepName": "Url: izbirkom_3",
+                "stepName": "Url: Республика Адыге (Адыге)",
                 "infFile": "t5.inf",
-                "time": 1575222223919
+                "time": 1575308791713
             },
             {
                 "stepId": "STEP6",
-                "stepName": "Url: сайт избирательной комиссии субъекта Российской Федерации",
+                "stepName": "Url: Адыгейска",
                 "infFile": "t6.inf",
-                "time": 1575222224020
+                "time": 1575308791859
             },
             {
                 "stepId": "STEP7",
-                "stepName": "Url: adygei",
+                "stepName": "Url: сайт избирательной комиссии субъекта Российской Федерации",
                 "infFile": "t7.inf",
-                "time": 1575222224525
-            },
-            {
-                "stepId": "STEP8",
-                "stepName": "Url: Итоги голосовани",
-                "infFile": "t8.inf",
-                "time": 1575222224827
-            },
-            {
-                "stepId": "STEP9",
-                "stepName": "Url: adygei",
-                "infFile": "t9.inf",
-                "time": 1575222225544
-            },
-            {
-                "stepId": "STEP10",
-                "stepName": "Url: Итоги голосовани",
-                "infFile": "t10.inf",
-                "time": 1575222225790
-            },
-            {
-                "stepId": "STEP11",
-                "stepName": "Url: adygei",
-                "infFile": "t11.inf",
-                "time": 1575222226206
-            },
-            {
-                "stepId": "STEP12",
-                "stepName": "Url: Итоги голосовани",
-                "infFile": "t12.inf",
-                "time": 1575222226641
-            },
-            {
-                "stepId": "STEP13",
-                "stepName": "Url: adygei",
-                "infFile": "t13.inf",
-                "time": 1575222227018
-            },
-            {
-                "stepId": "STEP14",
-                "stepName": "Url: Итоги голосовани",
-                "infFile": "t14.inf",
-                "time": 1575222227377
-            },
-            {
-                "stepId": "STEP15",
-                "stepName": "Url: adygei",
-                "infFile": "t15.inf",
-                "time": 1575222227926
-            },
-            {
-                "stepId": "STEP16",
-                "stepName": "Url: Итоги голосовани",
-                "infFile": "t16.inf",
-                "time": 1575222228223
-            },
-            {
-                "stepId": "STEP17",
-                "stepName": "Url: adygei",
-                "infFile": "t17.inf",
-                "time": 1575222228309
-            },
-            {
-                "stepId": "STEP18",
-                "stepName": "Url: Итоги голосовани",
-                "infFile": "t18.inf",
-                "time": 1575222228431
+                "time": 1575308791970
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC01_TR01_Choose_date",
-                "rawStartTime": 1575222223552,
-                "rawEndTime": 1575222223687,
+                "rawStartTime": 1575308789657,
+                "rawEndTime": 1575308789874,
                 "thinkTime": 0.0,
-                "wastedTime": 0.015979766845703126
+                "wastedTime": 0.026979923248291017
             },
             {
                 "transactionName": "UC01_TR02_President_election",
-                "rawStartTime": 1575222223691,
-                "rawEndTime": 1575222223773,
+                "rawStartTime": 1575308789878,
+                "rawEndTime": 1575308790516,
                 "thinkTime": 0.0,
-                "wastedTime": 0.020685911178588868
+                "wastedTime": 0.015278339385986328
             },
             {
-                "transactionName": "UC01_TR03_Region",
-                "rawStartTime": 1575222223775,
-                "rawEndTime": 1575222223847,
+                "transactionName": "UC01_TR03_Regions",
+                "rawStartTime": 1575308790521,
+                "rawEndTime": 1575308791078,
                 "thinkTime": 0.0,
-                "wastedTime": 0.013276815414428711
+                "wastedTime": 0.019662141799926759
             },
             {
-                "transactionName": "UC01_TR04_Subregion",
-                "rawStartTime": 1575222223849,
-                "rawEndTime": 1575222223921,
+                "transactionName": "UC01_TR04_Region",
+                "rawStartTime": 1575308791082,
+                "rawEndTime": 1575308791719,
                 "thinkTime": 0.0,
-                "wastedTime": 0.013150215148925782
+                "wastedTime": 0.015851736068725587
             },
             {
-                "transactionName": "UC01_TR05_Region_website",
-                "rawStartTime": 1575222223925,
-                "rawEndTime": 1575222224022,
+                "transactionName": "UC01_TR05_Subregion",
+                "rawStartTime": 1575308791723,
+                "rawEndTime": 1575308791865,
                 "thinkTime": 0.0,
-                "wastedTime": 0.018120765686035157
+                "wastedTime": 0.01601576805114746
             },
             {
-                "transactionName": "UC01_TR06_Choose_UIK",
-                "rawStartTime": 1575222224033,
-                "rawEndTime": 1575222224526,
+                "transactionName": "UC01_TR06_UIKs",
+                "rawStartTime": 1575308791869,
+                "rawEndTime": 1575308791973,
                 "thinkTime": 0.0,
-                "wastedTime": 0.010857820510864258
-            },
-            {
-                "transactionName": "UC01_TR07_UIK_Results",
-                "rawStartTime": 1575222224529,
-                "rawEndTime": 1575222224834,
-                "thinkTime": 0.0,
-                "wastedTime": 0.022393465042114259
-            },
-            {
-                "transactionName": "UC01_TR08_Download_results",
-                "rawStartTime": 1575222224836,
-                "rawEndTime": 1575222224838,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0
-            },
-            {
-                "transactionName": "UC01_TR06_Choose_UIK",
-                "rawStartTime": 1575222224846,
-                "rawEndTime": 1575222225546,
-                "thinkTime": 0.0,
-                "wastedTime": 0.011219978332519532
-            },
-            {
-                "transactionName": "UC01_TR07_UIK_Results",
-                "rawStartTime": 1575222225548,
-                "rawEndTime": 1575222225798,
-                "thinkTime": 0.0,
-                "wastedTime": 0.013270378112792969
-            },
-            {
-                "transactionName": "UC01_TR08_Download_results",
-                "rawStartTime": 1575222225800,
-                "rawEndTime": 1575222225802,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0
-            },
-            {
-                "transactionName": "UC01_TR06_Choose_UIK",
-                "rawStartTime": 1575222225810,
-                "rawEndTime": 1575222226208,
-                "thinkTime": 0.0,
-                "wastedTime": 0.031625986099243167
-            },
-            {
-                "transactionName": "UC01_TR07_UIK_Results",
-                "rawStartTime": 1575222226210,
-                "rawEndTime": 1575222226648,
-                "thinkTime": 0.0,
-                "wastedTime": 0.010911226272583008
-            },
-            {
-                "transactionName": "UC01_TR08_Download_results",
-                "rawStartTime": 1575222226650,
-                "rawEndTime": 1575222226652,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0
-            },
-            {
-                "transactionName": "UC01_TR06_Choose_UIK",
-                "rawStartTime": 1575222226659,
-                "rawEndTime": 1575222227020,
-                "thinkTime": 0.0,
-                "wastedTime": 0.024511098861694337
-            },
-            {
-                "transactionName": "UC01_TR07_UIK_Results",
-                "rawStartTime": 1575222227023,
-                "rawEndTime": 1575222227383,
-                "thinkTime": 0.0,
-                "wastedTime": 0.05705380439758301
-            },
-            {
-                "transactionName": "UC01_TR08_Download_results",
-                "rawStartTime": 1575222227385,
-                "rawEndTime": 1575222227387,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0
-            },
-            {
-                "transactionName": "UC01_TR06_Choose_UIK",
-                "rawStartTime": 1575222227396,
-                "rawEndTime": 1575222227927,
-                "thinkTime": 0.0,
-                "wastedTime": 0.030470848083496095
-            },
-            {
-                "transactionName": "UC01_TR07_UIK_Results",
-                "rawStartTime": 1575222227930,
-                "rawEndTime": 1575222228230,
-                "thinkTime": 0.0,
-                "wastedTime": 0.014891862869262696
-            },
-            {
-                "transactionName": "UC01_TR08_Download_results",
-                "rawStartTime": 1575222228232,
-                "rawEndTime": 1575222228234,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0
-            },
-            {
-                "transactionName": "UC01_TR06_Choose_UIK",
-                "rawStartTime": 1575222228242,
-                "rawEndTime": 1575222228311,
-                "thinkTime": 0.0,
-                "wastedTime": 0.011141300201416016
-            },
-            {
-                "transactionName": "UC01_TR07_UIK_Results",
-                "rawStartTime": 1575222228313,
-                "rawEndTime": 1575222228438,
-                "thinkTime": 0.0,
-                "wastedTime": 0.014154911041259766
-            },
-            {
-                "transactionName": "UC01_TR08_Download_results",
-                "rawStartTime": 1575222228440,
-                "rawEndTime": 1575222228442,
-                "thinkTime": 0.0,
-                "wastedTime": 0.0
+                "wastedTime": 0.011849164962768555
             }
         ]
     }

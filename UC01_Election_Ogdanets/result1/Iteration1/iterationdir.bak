@@ -1,4 +1,4 @@
 [vuser_init]
 SnapshotIndex=I1_vuser_init
-[Action]
-SnapshotIndex=I1_Action
+[Election_results]
+SnapshotIndex=I1_Election_results

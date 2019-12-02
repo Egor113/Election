@@ -1,4 +1,5 @@
-int i;
+int uik_index;
+int subregion_index;
 char FileLocation[1024] = "..\\election_results.txt";
 long FileVarriable;  
 
@@ -69,12 +70,12 @@ Action()
 
 	lr_think_time(62);
 
-	web_reg_save_param("Subregion_ID",
+	web_reg_save_param("Subregion_IDs",
                  "LB=type=0&amp;vibid=",
                  "RB=\">",
-				 //"Ord=All",
+				 "Ord=All",
 				 LAST);
-	
+		
 	web_url("izbirkom_2", 
 		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd={Region_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid={Region_ID}", 
 		"TargetFrame=", 
@@ -86,7 +87,11 @@ Action()
 		LAST);
 
 	lr_end_transaction("UC01_TR03_Region",LR_AUTO);
-
+	
+	for (subregion_index=1; subregion_index <= atoi(lr_eval_string("{Subregion_IDs_count}")); subregion_index++) {
+		
+	lr_save_string(lr_paramarr_idx("Subregion_IDs", subregion_index), "Subregion_ID");
+		
 	lr_start_transaction("UC01_TR04_Subregion");
 
 	lr_think_time(18);
@@ -127,9 +132,9 @@ Action()
 	
 	FileVarriable = fopen (FileLocation,"w+");
 	
-	for (i=1;i<=atoi(lr_eval_string("{UIK_IDs_count}"));i++) {
+	for (uik_index=1; uik_index <= atoi(lr_eval_string("{UIK_IDs_count}")); uik_index++) {
 		
-		lr_save_string(lr_paramarr_idx("UIK_IDs", i), "UIK_ID");
+		lr_save_string(lr_paramarr_idx("UIK_IDs", uik_index), "UIK_ID");
 		
 		lr_start_transaction("UC01_TR06_Choose_UIK");
 
@@ -153,12 +158,12 @@ Action()
 		
 		web_reg_save_param("Region",
                  "LB=tvd={Region_ID}\">",
-                 "RB=</a> &gt;",
+                 "RB=</a>",
 				 LAST);
 	
 		web_reg_save_param("Subregion",
                  "LB=tvd={Subregion_ID}\">",
-                 "RB=</a> &gt;",
+                 "RB=</a>",
 				 LAST);
 		
 		web_reg_save_param("UIK",
@@ -240,6 +245,10 @@ Action()
 		lr_end_transaction("UC01_TR08_Download_results",LR_AUTO);
 		
 	}
+	
+	}
+
+	
 	
 	fclose (FileVarriable);
 

@@ -1,0 +1,216 @@
+1146
+BODY {
+	font-family : "Arial", Times, serif;
+	font-size: 12px;
+	padding:0px;
+	margin: 0px;
+	background-color : white;
+	font : menu;
+	}
+TD {
+font-family: arial, helvetica, sans-serif; 
+font-size:  11px;
+font-style: normal;
+font-weight: normal;
+font : menu;
+}	
+TD.solid {
+font-family: arial, helvetica, sans-serif; 
+font-size:  11px;
+font-style: normal;
+font-weight: normal;
+font : menu;
+border : 1px solid ;
+border-color  : grey ;
+}
+TD.small {
+font-family: arial, helvetica, sans-serif; 
+font-size:  9px;
+font-style: normal;
+font-weight: normal;
+border : 0px solid ;
+border-color  : grey ;
+}
+h1.tittle {
+text-align : center;
+font-family: arial, helvetica, sans-serif; 
+font-size:  12px;
+font-style: normal;
+font-weight: bold;
+margin: 25 px;
+}	
+TD.center {
+font-family: arial, helvetica, sans-serif; 
+font-size:  12px;
+vertical-align : middle;
+font-style: normal;
+font-weight: normal;
+font : menu;
+}	
+TD.center_forum {
+font-family: arial, helvetica, sans-serif; 
+font-size:  12px;
+vertical-align : middle;
+font-style: normal;
+font-weight: normal;
+font : menu;
+text-align: justify ;
+}	
+FONT.ratio {
+font-family: arial, helvetica, sans-serif; 
+font-weight: normal; 
+font-size:  10px;
+
+}
+TD.chapter {
+	font-family: tahoma,arial, helvetica, sans-serif;
+	font-size: 11px;
+	letter-spacing : 0.05 em;
+	vertical-align : middle;
+}
+TD.chapter_1 {
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	font : menu;
+	padding-left: 1.5 em;
+}
+TD.comments {
+font-family: arial, helvetica, sans-serif; 
+font-weight: normal; 
+font-size:   9px;
+}
+TD.voiting {
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	border-bottom : 1px solid grey;
+	font-size: 12px;
+	font : menu;
+	vertical-align : middle;
+}
+INPUT.style_input {
+font-family: arial, helvetica, sans-serif; 
+font-size:   11px;
+border-color  : #EEEEEE ;
+border : 1px solid ;
+text-align:right;
+width : 95px;
+height :16px;
+}
+INPUT.style_button {
+font-family: arial, helvetica, sans-serif; 
+font-size:   9px;
+background-color : #EEEEEE ;
+border-color  :  black  ;	
+border : 1px solid ;
+height :16 px;
+}
+a{
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	font : menu;
+	text-decoration: none;
+}
+a:hover{
+    color: #427BC9;
+    font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	font : menu;
+}
+a.chapter_bottom {
+	font-family: arial, helvetica, sans-serif;
+	color: #A8A8A8;
+	font-size: 9px;
+	font : menu;
+}
+a.chapter_bottom:hover{
+    color: #427BC9;
+    font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 9px;
+	font : menu;
+}
+a.underline{
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: underline;
+}
+a.underline:hover{
+     color: #427BC9;
+    font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: underline;
+}
+FORM.form_type {
+	padding:0px;
+	margin:0px;
+}
+FONT.attention {
+	font-family: arial, helvetica, sans-serif;
+	color : #FF0000;
+	font-size: 12px;
+	font : menu;
+	vertical-align : middle;
+}
+IMG.news {
+margin-top    : 10px;
+margin-right  : 10px;
+}
+SELECT {
+font-family: arial, helvetica, sans-serif; 
+font-size:   11px;
+border-color  : black ;
+border : 1px solid ;
+text-align : middle;
+width : 40px;
+height :16px;
+}
+Input.radiocheck {
+    height : 17 px;
+	border: 0px;
+	vertical-align: top;
+	text-align: middle;
+}
+textarea {
+	border: Solid 1px black;
+	background-color: #F2F1FF;
+	font-size : 8Pt;
+	font-family : arial, helvetica, sans-serif;
+}
+a.vibLink:link, a.vibLink:active, a.vibLink:visited, a.vibLink:hover {
+	text-decoration: none;
+	font-family: Verdana, Arial; 
+	font-size: 8pt;
+	color: #0000ff;	
+	cursor: pointer;
+	cursor: hand; 
+}
+a.voidVibLink:link, a.voidVibLink:active, a.voidVibLink:visited, a.voidVibLink:hover {
+	text-decoration: none;
+	font-family: Verdana, Arial; 
+	font-size: 8pt;
+	color: grey;	
+	cursor: pointer;
+	cursor: hand; 
+}
+td.dateField {
+	font-family: Verdana, Arial; 
+	font-weight: bold; 
+	font-size: 8pt; 
+	color: #ffffff;
+	bgcolor: #555555;	
+}
+td.resultsCount {
+	font-family: Verdana, Arial; 
+	font-weight: bold; 
+	font-size: 8pt; 
+	color: #4E5882;
+}
+0
+

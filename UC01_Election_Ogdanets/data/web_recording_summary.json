@@ -39,10 +39,6 @@
   ],
   "FilterResources": [
     {
-      "IsNonResource": true,
-      "type": "text/xml"
-    },
-    {
       "IsNonResource": false,
       "type": "text/javascript"
     },
@@ -68,22 +64,22 @@
     },
     {
       "IsNonResource": false,
-      "type": "application/vnd.ms-excel"
+      "type": "application/octet-stream"
     }
   ],
   "GeneralInfo": {
     "BrowserVersion": "",
     "IsWinInetMode": false,
-    "MaxUsedConnections": 43,
+    "MaxUsedConnections": 34,
     "RecordedBrowser": "Internet Explorer",
     "RecordingDate": "дек-01-2019",
-    "RecordingDuration": 432032,
+    "RecordingDuration": 232406,
     "RecordingMode": "N/A",
     "RecordingTimeStamp": 1575202989,
     "RecordingType": "Browser",
-    "TotalBytesReceived": 1051145,
-    "TotalBytesSent": 82647,
-    "TotalRequests": 107,
+    "TotalBytesReceived": 1055723,
+    "TotalBytesSent": 72063,
+    "TotalRequests": 96,
     "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
   },
   "HostInfo": [
@@ -92,19 +88,19 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "152.199.19.161",
+          "IP": "65.52.226.14",
           "IncludeInScript": true,
-          "Name": "iecvlist.microsoft.com",
+          "Name": "c.urs.microsoft.com",
           "Port": 443,
           "Requests": [
             {
-              "CompressionType": "gzip",
-              "DataType": "text/xml",
-              "DownloadTime": 62,
-              "EventId": 242,
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 63,
+              "EventId": 1030,
               "HttpStatus": 200,
-              "Size": 26292,
-              "URL": "https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml"
+              "Size": 55937,
+              "URL": "https://c.urs.microsoft.com/l1.dat?cw=637108000838418177&v=3&cv=9.11.18362.0&os=10.0.18362.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"
             }
           ],
           "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
@@ -118,7 +114,7 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "91.222.157.1",
+          "IP": "91.222.157.3",
           "IncludeInScript": true,
           "Name": "www.vybory.izbirkom.ru",
           "Port": 80,
@@ -126,269 +122,17 @@
             {
               "CompressionType": "",
               "DataType": "text/html",
-              "DownloadTime": 438,
-              "EventId": 620,
+              "DownloadTime": 203,
+              "EventId": 1424,
               "HttpStatus": 200,
-              "Size": 26652,
-              "URL": "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=2012000364371"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 2687,
-              "EventId": 602,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 2688,
-              "EventId": 600,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/img/form.gif"
+              "Size": 24892,
+              "URL": "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371"
             },
             {
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 16,
-              "EventId": 593,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/img/folder_1.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 15,
-              "EventId": 590,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/0.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 110,
-              "EventId": 586,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 110,
-              "EventId": 584,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 63,
-              "EventId": 578,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 63,
-              "EventId": 574,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/report.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 265,
-              "EventId": 571,
-              "HttpStatus": 200,
-              "Size": 23242,
-              "URL": "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=2012000364371"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 492,
-              "HttpStatus": 200,
-              "Size": 131202,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 32,
-              "EventId": 489,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/img/folder_1.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 47,
-              "EventId": 486,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/img/form.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 481,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/0.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/jpeg",
-              "DownloadTime": 32,
-              "EventId": 478,
-              "HttpStatus": 200,
-              "Size": 41241,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/css",
-              "DownloadTime": 16,
-              "EventId": 476,
-              "HttpStatus": 200,
-              "Size": 459,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/css",
-              "DownloadTime": 31,
-              "EventId": 471,
-              "HttpStatus": 200,
-              "Size": 925,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/css",
-              "DownloadTime": 62,
-              "EventId": 466,
-              "HttpStatus": 200,
-              "Size": 2481,
-              "URL": "http://www.vybory.izbirkom.ru/css/report.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 281,
-              "EventId": 463,
-              "HttpStatus": 200,
-              "Size": 26055,
-              "URL": "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=1000001&tvd=100100084849067&vrn=100100084849062&prver=0&pronetvd=null&region=0&sub_region=0&type=0&vibid=100100084849067"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 377,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 31,
-              "EventId": 373,
-              "HttpStatus": 200,
-              "Size": 118,
-              "URL": "http://www.vybory.izbirkom.ru/img/folder_1.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 16,
-              "EventId": 371,
-              "HttpStatus": 200,
-              "Size": 132,
-              "URL": "http://www.vybory.izbirkom.ru/img/form.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/css",
-              "DownloadTime": 31,
-              "EventId": 368,
-              "HttpStatus": 200,
-              "Size": 2403,
-              "URL": "http://www.vybory.izbirkom.ru/css/0.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 365,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 32,
-              "EventId": 363,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 361,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 357,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/report.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 15,
-              "EventId": 349,
-              "HttpStatus": 200,
-              "Size": 47845,
-              "URL": "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 15,
-              "EventId": 299,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 0,
-              "EventId": 297,
+              "EventId": 1369,
               "HttpStatus": 304,
               "Size": 0,
               "URL": "http://www.vybory.izbirkom.ru/img/e.gif"
@@ -396,107 +140,116 @@
             {
               "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 0,
-              "EventId": 295,
+              "DownloadTime": 16,
+              "EventId": 1366,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/js/cal/all.js"
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
             },
             {
               "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 32,
-              "EventId": 293,
+              "DownloadTime": 15,
+              "EventId": 1364,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/js/cal/cal.js"
+              "URL": "http://www.vybory.izbirkom.ru/js/sorter.js"
             },
             {
               "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 291,
+              "DownloadTime": 156,
+              "EventId": 1360,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js"
+              "URL": "http://www.vybory.izbirkom.ru/css/227.css"
             },
             {
               "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 289,
+              "DownloadTime": 172,
+              "EventId": 1358,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/js/cal/datepicker.js"
+              "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
             },
             {
               "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 287,
+              "DownloadTime": 156,
+              "EventId": 1356,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/datepicker.css"
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
             },
             {
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 16,
-              "EventId": 285,
+              "EventId": 1351,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/cal.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 47,
-              "EventId": 282,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/theme.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 32,
-              "EventId": 280,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/sumoselect.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 32,
-              "EventId": 277,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/styles/main.css"
+              "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
             },
             {
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 31,
-              "EventId": 275,
+              "EventId": 1349,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js"
+              "URL": "http://www.vybory.izbirkom.ru/css/report.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 1343,
+              "HttpStatus": 200,
+              "Size": 12699,
+              "URL": "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227"
             },
             {
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 16,
-              "EventId": 273,
+              "EventId": 1299,
               "HttpStatus": 304,
               "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/core.css"
+              "URL": "http://www.vybory.izbirkom.ru/img/e.gif"
             },
             {
               "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 32,
-              "EventId": 271,
+              "DownloadTime": 16,
+              "EventId": 1297,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1293,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/js/sorter.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1290,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/227.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 1288,
               "HttpStatus": 304,
               "Size": 0,
               "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
@@ -505,16 +258,7 @@
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 16,
-              "EventId": 269,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 267,
+              "EventId": 1283,
               "HttpStatus": 304,
               "Size": 0,
               "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
@@ -523,7 +267,7 @@
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 31,
-              "EventId": 264,
+              "EventId": 1280,
               "HttpStatus": 304,
               "Size": 0,
               "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
@@ -532,7 +276,7 @@
               "CompressionType": "",
               "DataType": "",
               "DownloadTime": 15,
-              "EventId": 262,
+              "EventId": 1275,
               "HttpStatus": 304,
               "Size": 0,
               "URL": "http://www.vybory.izbirkom.ru/css/report.css"
@@ -540,8 +284,341 @@
             {
               "CompressionType": "",
               "DataType": "text/html",
-              "DownloadTime": 47,
-              "EventId": 255,
+              "DownloadTime": 422,
+              "EventId": 1271,
+              "HttpStatus": 200,
+              "Size": 33435,
+              "URL": "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 1248,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/img/e.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 1245,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 172,
+              "EventId": 1242,
+              "HttpStatus": 200,
+              "Size": 9156,
+              "URL": "http://www.vybory.izbirkom.ru/js/sorter.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 188,
+              "EventId": 1240,
+              "HttpStatus": 200,
+              "Size": 1639,
+              "URL": "http://www.vybory.izbirkom.ru/css/227.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1237,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 1234,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1226,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1224,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/report.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 1210,
+              "HttpStatus": 200,
+              "Size": 211644,
+              "URL": "http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1161,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 1159,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "http://www.vybory.izbirkom.ru/img/folder_1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 1157,
+              "HttpStatus": 200,
+              "Size": 132,
+              "URL": "http://www.vybory.izbirkom.ru/img/form.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 1155,
+              "HttpStatus": 200,
+              "Size": 2403,
+              "URL": "http://www.vybory.izbirkom.ru/css/0.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1153,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 1151,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 1149,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1147,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/report.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 1143,
+              "HttpStatus": 200,
+              "Size": 47845,
+              "URL": "http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 110,
+              "EventId": 1092,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/img/e.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 110,
+              "EventId": 1090,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/js/cal/all.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 140,
+              "EventId": 1088,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/js/cal/cal.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 140,
+              "EventId": 1086,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1084,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/js/cal/datepicker.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1082,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/datepicker.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1080,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/cal.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1078,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 140,
+              "EventId": 1075,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/sumoselect.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1073,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/theme.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1071,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/core.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 110,
+              "EventId": 1069,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/styles/main.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1067,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1065,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1060,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 140,
+              "EventId": 1058,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1056,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 1054,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.vybory.izbirkom.ru/css/report.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 1045,
               "HttpStatus": 200,
               "Size": 51169,
               "URL": "http://www.vybory.izbirkom.ru/region/izbirkom"
@@ -549,8 +626,17 @@
             {
               "CompressionType": "",
               "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 1008,
+              "HttpStatus": 404,
+              "Size": 159,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/images/ui-icons_555555_256x240.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
               "DownloadTime": 16,
-              "EventId": 174,
+              "EventId": 964,
               "HttpStatus": 404,
               "Size": 159,
               "URL": "http://www.vybory.izbirkom.ru/css/cal/images/ui-icons_444444_256x240.png"
@@ -559,7 +645,7 @@
               "CompressionType": "",
               "DataType": "image/x-icon",
               "DownloadTime": 0,
-              "EventId": 118,
+              "EventId": 909,
               "HttpStatus": 200,
               "Size": 586,
               "URL": "http://www.vybory.izbirkom.ru/favicon.ico"
@@ -567,8 +653,8 @@
             {
               "CompressionType": "",
               "DataType": "",
-              "DownloadTime": 0,
-              "EventId": 96,
+              "DownloadTime": 16,
+              "EventId": 888,
               "HttpStatus": 200,
               "Size": 131202,
               "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_W.eot?"
@@ -576,8 +662,8 @@
             {
               "CompressionType": "",
               "DataType": "image/gif",
-              "DownloadTime": 0,
-              "EventId": 93,
+              "DownloadTime": 16,
+              "EventId": 883,
               "HttpStatus": 200,
               "Size": 49,
               "URL": "http://www.vybory.izbirkom.ru/img/e.gif"
@@ -585,8 +671,8 @@
             {
               "CompressionType": "",
               "DataType": "text/javascript",
-              "DownloadTime": 31,
-              "EventId": 89,
+              "DownloadTime": 15,
+              "EventId": 876,
               "HttpStatus": 200,
               "Size": 753,
               "URL": "http://www.vybory.izbirkom.ru/js/cal/all.js"
@@ -594,8 +680,8 @@
             {
               "CompressionType": "",
               "DataType": "text/javascript",
-              "DownloadTime": 16,
-              "EventId": 84,
+              "DownloadTime": 15,
+              "EventId": 874,
               "HttpStatus": 200,
               "Size": 12584,
               "URL": "http://www.vybory.izbirkom.ru/js/cal/cal.js"
@@ -603,17 +689,26 @@
             {
               "CompressionType": "",
               "DataType": "text/javascript",
-              "DownloadTime": 46,
-              "EventId": 77,
+              "DownloadTime": 16,
+              "EventId": 872,
               "HttpStatus": 200,
               "Size": 1181,
               "URL": "http://www.vybory.izbirkom.ru/js/cal/datepicker-ru.js"
             },
             {
               "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 867,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/datepicker.css"
+            },
+            {
+              "CompressionType": "",
               "DataType": "text/javascript",
-              "DownloadTime": 46,
-              "EventId": 74,
+              "DownloadTime": 31,
+              "EventId": 864,
               "HttpStatus": 200,
               "Size": 80375,
               "URL": "http://www.vybory.izbirkom.ru/js/cal/datepicker.js"
@@ -621,26 +716,8 @@
             {
               "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 31,
-              "EventId": 72,
-              "HttpStatus": 200,
-              "Size": 3808,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/datepicker.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/css",
-              "DownloadTime": 31,
-              "EventId": 70,
-              "HttpStatus": 200,
-              "Size": 2837,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/cal.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/css",
-              "DownloadTime": 15,
-              "EventId": 66,
+              "DownloadTime": 16,
+              "EventId": 862,
               "HttpStatus": 200,
               "Size": 8514,
               "URL": "http://www.vybory.izbirkom.ru/css/cal/sumoselect.css"
@@ -649,16 +726,16 @@
               "CompressionType": "",
               "DataType": "text/css",
               "DownloadTime": 31,
-              "EventId": 59,
+              "EventId": 860,
               "HttpStatus": 200,
-              "Size": 17459,
-              "URL": "http://www.vybory.izbirkom.ru/css/cal/theme.css"
+              "Size": 2837,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/cal.css"
             },
             {
               "CompressionType": "",
               "DataType": "text/css",
               "DownloadTime": 47,
-              "EventId": 57,
+              "EventId": 853,
               "HttpStatus": 200,
               "Size": 4422,
               "URL": "http://www.vybory.izbirkom.ru/styles/main.css"
@@ -666,17 +743,26 @@
             {
               "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 16,
-              "EventId": 55,
+              "DownloadTime": 31,
+              "EventId": 851,
               "HttpStatus": 200,
               "Size": 1543,
               "URL": "http://www.vybory.izbirkom.ru/css/cal/core.css"
             },
             {
               "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 848,
+              "HttpStatus": 200,
+              "Size": 17459,
+              "URL": "http://www.vybory.izbirkom.ru/css/cal/theme.css"
+            },
+            {
+              "CompressionType": "",
               "DataType": "text/javascript",
-              "DownloadTime": 32,
-              "EventId": 53,
+              "DownloadTime": 31,
+              "EventId": 846,
               "HttpStatus": 200,
               "Size": 27799,
               "URL": "http://www.vybory.izbirkom.ru/js/cal/jquery.sumoselect.js"
@@ -684,8 +770,8 @@
             {
               "CompressionType": "",
               "DataType": "text/javascript",
-              "DownloadTime": 16,
-              "EventId": 51,
+              "DownloadTime": 32,
+              "EventId": 844,
               "HttpStatus": 200,
               "Size": 95935,
               "URL": "http://www.vybory.izbirkom.ru/js/cal/jquery-1.11.2.min.js"
@@ -694,7 +780,7 @@
               "CompressionType": "",
               "DataType": "image/jpeg",
               "DownloadTime": 31,
-              "EventId": 48,
+              "EventId": 842,
               "HttpStatus": 200,
               "Size": 41241,
               "URL": "http://www.vybory.izbirkom.ru/header/00/header_bg.jpg"
@@ -703,7 +789,7 @@
               "CompressionType": "",
               "DataType": "text/css",
               "DownloadTime": 31,
-              "EventId": 46,
+              "EventId": 840,
               "HttpStatus": 200,
               "Size": 459,
               "URL": "http://www.vybory.izbirkom.ru/header/00/fonts/PTS75F_stylesheet.css"
@@ -711,8 +797,8 @@
             {
               "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 31,
-              "EventId": 44,
+              "DownloadTime": 16,
+              "EventId": 838,
               "HttpStatus": 200,
               "Size": 925,
               "URL": "http://www.vybory.izbirkom.ru/header/00/00.css"
@@ -720,8 +806,8 @@
             {
               "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 15,
-              "EventId": 42,
+              "DownloadTime": 16,
+              "EventId": 836,
               "HttpStatus": 200,
               "Size": 2481,
               "URL": "http://www.vybory.izbirkom.ru/css/report.css"
@@ -730,7 +816,7 @@
               "CompressionType": "",
               "DataType": "text/html",
               "DownloadTime": 32,
-              "EventId": 31,
+              "EventId": 826,
               "HttpStatus": 200,
               "Size": 83265,
               "URL": "http://www.vybory.izbirkom.ru/region/izbirkom"
@@ -738,8 +824,8 @@
             {
               "CompressionType": "",
               "DataType": "text/html",
-              "DownloadTime": 47,
-              "EventId": 24,
+              "DownloadTime": 16,
+              "EventId": 819,
               "HttpStatus": 302,
               "Size": 195,
               "URL": "http://www.vybory.izbirkom.ru/"
@@ -750,205 +836,25 @@
         },
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "91.222.157.3",
+          "IP": "91.222.157.1",
           "IncludeInScript": true,
           "Name": "www.adygei.vybory.izbirkom.ru",
           "Port": 80,
           "Requests": [
             {
               "CompressionType": "",
-              "DataType": "application/vnd.ms-excel",
-              "DownloadTime": 31,
-              "EventId": 781,
-              "HttpStatus": 200,
-              "Size": 26112,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/servlet/ExcelReportVersion?region=1&sub_region=1&root=14001001&global=true&vrn=100100084849062&tvd=4014001115032&type=226&vibid=4014001115032&condition=&action=show&version=null&prver=0&sortorder=0"
-            },
-            {
-              "CompressionType": "",
               "DataType": "image/gif",
               "DownloadTime": 16,
-              "EventId": 762,
+              "EventId": 1460,
               "HttpStatus": 200,
               "Size": 49,
               "URL": "http://www.adygei.vybory.izbirkom.ru/img/e.gif"
             },
             {
               "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 759,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 757,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/javascript",
-              "DownloadTime": 16,
-              "EventId": 753,
-              "HttpStatus": 200,
-              "Size": 9156,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/js/sorter.js"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/css",
-              "DownloadTime": 16,
-              "EventId": 751,
-              "HttpStatus": 200,
-              "Size": 1639,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/css/226.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
+              "DataType": "image/gif",
               "DownloadTime": 15,
-              "EventId": 748,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 78,
-              "EventId": 743,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 79,
-              "EventId": 739,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/css/report.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 360,
-              "EventId": 737,
-              "HttpStatus": 200,
-              "Size": 11545,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/region/region/adygei?action=show&root=14001001&tvd=4014001115032&vrn=100100084849062&region=1&global=true&sub_region=1&prver=0&pronetvd=null&vibid=4014001115032&type=226"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/x-icon",
-              "DownloadTime": 16,
-              "EventId": 713,
-              "HttpStatus": 200,
-              "Size": 586,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/favicon.ico"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 32,
-              "EventId": 704,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 702,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 699,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/img/folder_1.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 31,
-              "EventId": 697,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/img/form.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 695,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/css/0.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 693,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 16,
-              "EventId": 688,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "",
-              "DownloadTime": 219,
-              "EventId": 685,
-              "HttpStatus": 304,
-              "Size": 0,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/css/report.css"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "text/html",
-              "DownloadTime": 265,
-              "EventId": 678,
-              "HttpStatus": 200,
-              "Size": 25503,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/region/adygei?action=show&global=true&root=14001001&tvd=4014001115032&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=0&vibid=4014001115032"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 47,
-              "EventId": 653,
-              "HttpStatus": 200,
-              "Size": 36,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 47,
-              "EventId": 651,
+              "EventId": 1454,
               "HttpStatus": 200,
               "Size": 17981,
               "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/bg_1.gif"
@@ -956,56 +862,56 @@
             {
               "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 47,
-              "EventId": 649,
+              "DownloadTime": 63,
+              "EventId": 1451,
               "HttpStatus": 200,
-              "Size": 2403,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/css/0.css"
+              "Size": 1639,
+              "URL": "http://www.adygei.vybory.izbirkom.ru/css/227.css"
             },
             {
               "CompressionType": "",
               "DataType": "image/gif",
-              "DownloadTime": 47,
-              "EventId": 647,
+              "DownloadTime": 16,
+              "EventId": 1449,
               "HttpStatus": 200,
-              "Size": 118,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/img/folder_1.gif"
+              "Size": 36,
+              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/line_hor.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 1445,
+              "HttpStatus": 200,
+              "Size": 9156,
+              "URL": "http://www.adygei.vybory.izbirkom.ru/js/sorter.js"
             },
             {
               "CompressionType": "",
               "DataType": "image/gif",
-              "DownloadTime": 47,
-              "EventId": 645,
+              "DownloadTime": 31,
+              "EventId": 1443,
               "HttpStatus": 200,
               "Size": 49,
               "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/e.gif"
             },
             {
               "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 31,
-              "EventId": 643,
-              "HttpStatus": 200,
-              "Size": 132,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/img/form.gif"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 62,
-              "EventId": 639,
-              "HttpStatus": 200,
-              "Size": 8813,
-              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif"
-            },
-            {
-              "CompressionType": "",
               "DataType": "text/css",
-              "DownloadTime": 63,
-              "EventId": 636,
+              "DownloadTime": 31,
+              "EventId": 1437,
               "HttpStatus": 200,
               "Size": 2481,
               "URL": "http://www.adygei.vybory.izbirkom.ru/css/report.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 1435,
+              "HttpStatus": 200,
+              "Size": 8813,
+              "URL": "http://www.adygei.vybory.izbirkom.ru/header/01/gerb.gif"
             }
           ],
           "SSLCipher": "None",
@@ -1019,7 +925,7 @@
       "Domains": [
         {
           "HTTPVersion": "HTTP/1.1",
-          "IP": "64.233.165.101",
+          "IP": "64.233.165.102",
           "IncludeInScript": true,
           "Name": "www.google-analytics.com",
           "Port": 443,
@@ -1027,80 +933,71 @@
             {
               "CompressionType": "",
               "DataType": "image/gif",
-              "DownloadTime": 32,
-              "EventId": 764,
+              "DownloadTime": 31,
+              "EventId": 1463,
               "HttpStatus": 200,
               "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=12&utmn=1449542534&utmhn=www.adygei.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=2007001748&utmr=0&utmp=%2Fregion%2Fregion%2Fadygei%3Faction%3Dshow%26root%3D14001001%26tvd%3D4014001115032%26vrn%3D100100084849062%26region%3D1%26global%3Dtrue%26sub_region%3D1%26prver%3D0%26pronetvd%3Dnull%26vibid%3D4014001115032%26type%3D226&utmht=1575203361570&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=8&utmn=1508508112&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=372469400&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D12000009%26tvd%3D2012000364371%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D1%26sub_region%3D1%26type%3D227%26vibid%3D2012000364371&utmht=1575308713716&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1575202796.1575308432.3%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 1371,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=7&utmn=1631633641&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=495571807&utmr=0&utmp=%2Fregion%2Fregion%2Fizbirkom%3Faction%3Dshow%26tvd%3D100100084849067%26vrn%3D100100084849062%26region%3D0%26global%3D1%26sub_region%3D0%26prver%3D0%26pronetvd%3Dnull%26vibid%3D2012000364371%26type%3D227&utmht=1575308678582&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1575202796.1575308432.3%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 1301,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=6&utmn=219561831&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=738157601&utmr=0&utmp=%2Fregion%2Fregion%2Fizbirkom%3Faction%3Dshow%26tvd%3D100100084849066%26vrn%3D100100084849062%26region%3D0%26global%3D1%26sub_region%3D0%26prver%3D0%26pronetvd%3Dnull%26vibid%3D100100084849067%26type%3D227&utmht=1575308648784&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1575202796.1575308432.3%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
             },
             {
               "CompressionType": "",
               "DataType": "image/gif",
               "DownloadTime": 47,
-              "EventId": 716,
+              "EventId": 1250,
               "HttpStatus": 200,
               "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=11&utmn=1358768351&utmhn=www.adygei.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=68524321&utmr=http%3A%2F%2Fwww.vybory.izbirkom.ru%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D12000009%26tvd%3D2012000364371%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D1%26sub_region%3D1%26type%3D0%26vibid%3D2012000364371&utmp=%2Fregion%2Fadygei%3Faction%3Dshow%26global%3Dtrue%26root%3D14001001%26tvd%3D4014001115032%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D1%26sub_region%3D1%26type%3D0%26vibid%3D4014001115032&utmht=1575203321884&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=5&utmn=1852374015&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x915&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=1826253462&utmr=0&utmp=%2Fregion%2Fregion%2Fizbirkom%3Faction%3Dshow%26root%3D1%26tvd%3D100100084849066%26vrn%3D100100084849062%26region%3D0%26global%3D1%26sub_region%3D0%26prver%3D0%26pronetvd%3Dnull%26vibid%3D100100084849066%26type%3D227&utmht=1575308623422&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1575202796.1575308432.3%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
             },
             {
               "CompressionType": "",
               "DataType": "image/gif",
-              "DownloadTime": 32,
-              "EventId": 657,
+              "DownloadTime": 78,
+              "EventId": 1163,
               "HttpStatus": 200,
               "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=10&utmn=1124349872&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=647887631&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D12000009%26tvd%3D2012000364371%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D1%26sub_region%3D1%26type%3D0%26vibid%3D2012000364371&utmht=1575203234699&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=4&utmn=631845050&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=1646655522&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3D1%26vrn%3D100100084849062%26region%3D0%26prver%3D0%26pronetvd%3Dnull&utmht=1575308589857&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1575202796.1575308432.3%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
             },
             {
               "CompressionType": "",
               "DataType": "image/gif",
-              "DownloadTime": 31,
-              "EventId": 596,
+              "DownloadTime": 78,
+              "EventId": 1094,
               "HttpStatus": 200,
               "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=9&utmn=2028548954&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=432739887&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D12000009%26tvd%3D2012000364371%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D0%26sub_region%3D0%26type%3D0%26vibid%3D2012000364371&utmht=1575203194606&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 32,
-              "EventId": 512,
-              "HttpStatus": 200,
-              "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=8&utmn=1036077311&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=1360077152&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3Dtrue%26root%3D1000001%26tvd%3D100100084849067%26vrn%3D100100084849062%26prver%3D0%26pronetvd%3Dnull%26region%3D0%26sub_region%3D0%26type%3D0%26vibid%3D100100084849067&utmht=1575203161959&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=3&utmn=1419762300&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=1255510816&utmr=0&utmp=%2Fregion%2Fizbirkom&utmht=1575308552413&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1575202796.1575308432.3%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
             },
             {
               "CompressionType": "",
               "DataType": "image/gif",
               "DownloadTime": 31,
-              "EventId": 380,
+              "EventId": 907,
               "HttpStatus": 200,
               "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=7&utmn=1065824253&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1920x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=286712495&utmr=0&utmp=%2Fregion%2Fizbirkom%3Faction%3Dshow%26global%3D1%26vrn%3D100100084849062%26region%3D0%26prver%3D0%26pronetvd%3Dnull&utmht=1575203090521&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 32,
-              "EventId": 301,
-              "HttpStatus": 200,
-              "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=6&utmn=1972139193&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=341776034&utmr=0&utmp=%2Fregion%2Fizbirkom&utmht=1575203050077&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
-            },
-            {
-              "CompressionType": "",
-              "DataType": "image/gif",
-              "DownloadTime": 32,
-              "EventId": 116,
-              "HttpStatus": 200,
-              "Size": 35,
-              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=5&utmn=1201864127&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=2073637711&utmr=-&utmp=%2Fregion%2Fizbirkom&utmht=1575202998577&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1574611162.1575202796.2%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
+              "URL": "https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=2&utmn=91354660&utmhn=www.vybory.izbirkom.ru&utmcs=windows-1251&utmsr=1920x1080&utmvp=1903x932&utmsc=24-bit&utmul=ru-ru&utmje=1&utmfl=32.0%20r0&utmdt=%D0%A1%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0%D1%85%20%D0%B8%20%D1%80%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D0%B4%D1%83%D0%BC%D0%B0%D1%85&utmhid=1029199464&utmr=-&utmp=%2Fregion%2Fizbirkom&utmht=1575308504920&utmac=UA-26136728-1&utmcc=__utma%3D252441553.1240078081.1574611162.1575202796.1575308432.3%3B%2B__utmz%3D252441553.1574611162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~"
             },
             {
               "CompressionType": "",
               "DataType": "text/javascript",
-              "DownloadTime": 31,
-              "EventId": 99,
+              "DownloadTime": 46,
+              "EventId": 893,
               "HttpStatus": 200,
               "Size": 46274,
               "URL": "https://www.google-analytics.com/ga.js"
@@ -1117,5 +1014,5 @@
     "IncludeInScript": false,
     "IsScriptIncludeWebSocket": false
   },
-  "NumberOfCorrelations": 9
+  "NumberOfCorrelations": 13
 }
