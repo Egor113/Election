@@ -41,7 +41,10 @@ Election_results()
 
 	lr_end_transaction("UC01_TR01_Choose_date",LR_AUTO);
 
-	lr_think_time(36);
+	//Значение THINKTIME по умолчанию равно 10 с и будет рассчитано
+	//исходя из профиля нагрузки и pacing
+	
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC01_TR02_President_election");
 
@@ -57,7 +60,7 @@ Election_results()
 
 	lr_end_transaction("UC01_TR02_President_election",LR_AUTO);
 
-	lr_think_time(31);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC01_TR03_Regions");
 
@@ -83,9 +86,9 @@ Election_results()
 
 	fprintf (FileVarriable, "%s \n", "Регион, Нижестоящая ИК, УИК, Бабурин, Грудинин, Жириновский, Путин, Собчак, Сурайкин, Титов, Явлинский");
 	
-	lr_think_time(24);
+	lr_think_time(THINKTIME);
 	
-	for (region_index=85; region_index <= atoi(lr_eval_string("{Region_IDs_count}")); region_index++) {
+	for (region_index=1; region_index <= atoi(lr_eval_string("{Region_IDs_count}")); region_index++) {
 		
 	lr_save_string(lr_paramarr_idx("Region_IDs", region_index), "Region_ID");
 		
@@ -108,13 +111,13 @@ Election_results()
 		LAST);
 
 	lr_end_transaction("UC01_TR04_Region",LR_AUTO);
+	
+	lr_think_time(THINKTIME);
 
 	for (subregion_index=1; subregion_index <= atoi(lr_eval_string("{Subregion_IDs_count}")); subregion_index++) {
 		
 	lr_save_string(lr_paramarr_idx("Subregion_IDs", subregion_index), "Subregion_ID");
 	
-	lr_think_time(25);
-
 	lr_start_transaction("UC01_TR05_Subregion");
 
 	web_url("Адыгейска", 
@@ -129,7 +132,7 @@ Election_results()
 
 	lr_end_transaction("UC01_TR05_Subregion",LR_AUTO);
 
-	lr_think_time(28);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC01_TR06_UIKs");
 
@@ -195,9 +198,7 @@ Election_results()
 	
 	}
 	
-	fclose (FileVarriable);
-	                 
-
+	fclose (FileVarriable);           
 
 	return 0;
 }

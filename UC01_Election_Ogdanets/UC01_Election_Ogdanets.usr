@@ -53,7 +53,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC01_TR01_Choose_date__*delimiter*__UC01_TR02_President_election__*delimiter*__UC01_TR03_Regions__*delimiter*__UC01_TR04_Region__*delimiter*__UC01_TR05_Subregion__*delimiter*__UC01_TR06_UIKs"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=3
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

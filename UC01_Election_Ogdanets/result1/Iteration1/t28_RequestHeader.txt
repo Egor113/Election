@@ -1,10 +1,10 @@
-GET /region/region/izbirkom?action=show&tvd=100100084849206&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2882000533387&type=227 HTTP/1.1
-Referer: http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849206&type=227
+GET /region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364366&type=227 HTTP/1.1
+Referer: http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 Accept-Encoding: gzip, deflate
 Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: www.vybory.izbirkom.ru
-Cookie: JSESSIONID=ba752757fa4679b9acf45964552d
+Cookie: JSESSIONID=bcb7608b30c9b6df91aeee767680
 
