@@ -1,4 +1,4 @@
-int uik_index, candidate_index, uik_count, subregion_index;
+int uik_index, candidate_index, uik_count, subregion_index, region_index;
 char FileLocation[1024] = "..\\election_results.txt";
 long FileVarriable; 
 
@@ -61,11 +61,11 @@ Election_results()
 
 	lr_start_transaction("UC01_TR03_Regions");
 
-	web_reg_save_param("Region_ID",
-                 "LB=vibid=",
-                 "RB=\">",
-				 //"Ord=All",
-				 LAST);
+	web_reg_save_param_regexp("ParamName=Region_IDs",
+        "RegExp=vibid=([0-9]+)\">[а-яА-ЯёЁ0-9 ]",
+        "Ordinal=All",
+        "Group=1",
+        LAST);
 	
 	web_url("Сводна таблица результатов выборов", 
 		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227", 
@@ -84,7 +84,11 @@ Election_results()
 	fprintf (FileVarriable, "%s \n", "Регион, Нижестоящая ИК, УИК, Бабурин, Грудинин, Жириновский, Путин, Собчак, Сурайкин, Титов, Явлинский");
 	
 	lr_think_time(24);
-
+	
+	for (region_index=85; region_index <= atoi(lr_eval_string("{Region_IDs_count}")); region_index++) {
+		
+	lr_save_string(lr_paramarr_idx("Region_IDs", region_index), "Region_ID");
+		
 	lr_start_transaction("UC01_TR04_Region");
 
 	web_reg_save_param_regexp("ParamName=Subregion_IDs",
@@ -94,7 +98,7 @@ Election_results()
         LAST);
 	
 	web_url("Республика Адыге (Адыге)", 
-		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227", 
+		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Region_ID}&type=227", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -114,11 +118,11 @@ Election_results()
 	lr_start_transaction("UC01_TR05_Subregion");
 
 	web_url("Адыгейска", 
-		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
+		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd={Region_ID}&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227", 
+		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Region_ID}&type=227", 
 		"Snapshot=t15.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -156,7 +160,7 @@ Election_results()
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
+		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd={Region_ID}&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
 		"Snapshot=t16.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -186,6 +190,8 @@ Election_results()
 	}
 	
 	lr_end_transaction("UC01_TR06_UIKs",LR_AUTO);
+	
+	}
 	
 	}
 	
