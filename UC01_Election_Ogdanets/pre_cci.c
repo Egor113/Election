@@ -2599,9 +2599,7 @@ vuser_init()
 # 4 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
 # 1 "Election_results.c" 1
-int uik_index;
-int candidate_index;
-int uik_count;
+int uik_index, candidate_index, uik_count, subregion_index;
 char FileLocation[1024] = "..\\election_results.txt";
 long FileVarriable; 
 
@@ -2686,11 +2684,11 @@ Election_results()
 
 	lr_start_transaction("UC01_TR04_Region");
 
-	web_reg_save_param("Subregion_ID",
-                 "LB=vibid=",
-                 "RB=\">",
-				  
-				 "LAST");
+	web_reg_save_param_regexp("ParamName=Subregion_IDs",
+        "RegExp=vibid=([0-9]+)\">[а-яА-ЯёЁ0-9 ]",
+        "Ordinal=All",
+        "Group=1",
+        "LAST");
 	
 	web_url("Республика Адыге (Адыге)", 
 		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849067&type=227", 
@@ -2704,6 +2702,10 @@ Election_results()
 
 	lr_end_transaction("UC01_TR04_Region",2);
 
+	for (subregion_index=1; subregion_index <= atoi(lr_eval_string("{Subregion_IDs_count}")); subregion_index++) {
+		
+	lr_save_string(lr_paramarr_idx("Subregion_IDs", subregion_index), "Subregion_ID");
+	
 	lr_think_time(25);
 
 	lr_start_transaction("UC01_TR05_Subregion");
@@ -2784,6 +2786,7 @@ Election_results()
 			candidate_index++;
 	}
 	
+	}
 	fclose (FileVarriable);
 	                 
 	lr_end_transaction("UC01_TR06_UIKs",2);
