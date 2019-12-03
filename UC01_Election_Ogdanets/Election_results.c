@@ -117,11 +117,11 @@ Election_results()
 
 	lr_start_transaction("UC01_TR06_UIKs");
 
-	web_reg_save_param("Results",
-            "LB=style=\"color:black\"><nobr><b>",
-            "RB=</b></nobr>",
-            "Ord=All",
-			LAST);
+	web_reg_save_param_regexp("ParamName=Results",
+        "RegExp=<td align=\"right\" style=\"color:black\"><nobr><b>([0-9]+)</b></nobr>\r\n<br>[0-9.]+%",
+        "Ordinal=All",
+        "Group=1",
+        LAST);
 	
 	web_url("сайт избирательной комиссии субъекта Российской Федерации", 
 		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371", 
@@ -133,55 +133,6 @@ Election_results()
 		"Mode=HTML", 
 		LAST);
 	
-	uik_index = 92
-		
-		for(candidate_index=1; candidate_index <= 6; candidate_index++)
-			for(candidate_index=1; candidate_index <= 6; candidate_index++)
-				arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-			}
-		}
-		
-		
-			
-			
-//		
-//		for(candidate_index=uik_index; candidate_index <= uik_index+6; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//	
-//		for(candidate_index=uik_index+7; candidate_index <= 12; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//		
-//		for(candidate_index=13; candidate_index <= 18; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//			
-//		for(candidate_index=9; candidate_index <= 24; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//			
-//		for(candidate_index=25; candidate_index <= ; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//			
-//		for(candidate_index=1; candidate_index <= 6; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//			
-//		for(candidate_index=1; candidate_index <= 6; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//			
-//		for(candidate_index=1; candidate_index <= 6; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-//			
-//		for(candidate_index=1; candidate_index <= 6; candidate_index++)
-//			arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-//		}
-	
-//	}
 	
 
 	lr_end_transaction("UC01_TR06_UIKs",LR_AUTO);

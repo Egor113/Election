@@ -28,10 +28,10 @@
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
-    <FileEntry Name="pre_cci.c.pickle" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC01_Election_Ogdanets.c.pickle" Filter="1" />
     <FileEntry Name="UC01_Election_Ogdanets.ci" Filter="1" />
     <FileEntry Name="UC01_Election_Ogdanets.prm" Filter="1" />

@@ -1,4 +1,4 @@
-# 1 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c"
+# 1 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
+# 1 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
+# 2 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
 # 1 "globals.h" 1
 
@@ -2589,14 +2589,14 @@ void
 
 
 
-# 3 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
+# 3 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
+# 4 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
 # 1 "Action.c" 1
 int uik_index;
@@ -2855,7 +2855,7 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
+# 5 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
 # 1 "Election_results.c" 1
 int uik_index;
@@ -2977,11 +2977,11 @@ Election_results()
 
 	lr_start_transaction("UC01_TR06_UIKs");
 
-	web_reg_save_param("Results",
-            "LB=style=\"color:black\"><nobr><b>",
-            "RB=</b></nobr>",
-            "Ord=All",
-			"LAST");
+	web_reg_save_param_regexp("ParamName=Results",
+        "RegExp=<td align=\"right\" style=\"color:black\"><nobr><b>([0-9]+)</b></nobr>\r\n<br>[0-9.]+%",
+        "Ordinal=All",
+        "Group=1",
+        "LAST");
 	
 	web_url("сайт избирательной комиссии субъекта Российской Федерации", 
 		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371", 
@@ -2993,67 +2993,18 @@ Election_results()
 		"Mode=HTML", 
 		"LAST");
 	
-	uik_index = 92
-		
-		for(candidate_index=1; candidate_index <= 6; candidate_index++)
-			for(candidate_index=1; candidate_index <= 6; candidate_index++)
-				arr1[candidate_index] = atoi(lr_eval_string("{UIK_IDs}"));
-			}
-		}
-		
-		
-			
-			
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-	
- 
 	
 
 	lr_end_transaction("UC01_TR06_UIKs",2);
 
 	return 0;
 }
-# 6 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
+# 6 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 7 "c:\\projects\\perfomance lab\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
+# 7 "c:\\users\\student\\desktop\\ogdanets\\election\\uc01_election_ogdanets\\\\combined_UC01_Election_Ogdanets.c" 2
 
