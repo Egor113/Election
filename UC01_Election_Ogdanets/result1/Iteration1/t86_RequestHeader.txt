@@ -6,5 +6,5 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: www.vybory.izbirkom.ru
-Cookie: JSESSIONID=bcbae9854bc1c4b46932f4374720
+Cookie: JSESSIONID=bd42b6128e4555d37b5b7f94e303
 

@@ -8,7 +8,7 @@ Election_results()
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	web_url("www.vybory.izbirkom.ru", 
-		"URL=http://www.vybory.izbirkom.ru/", 
+		"URL={Host}/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -20,11 +20,11 @@ Election_results()
 	lr_start_transaction("UC01_TR01_Choose_date");
 
 	web_submit_data("izbirkom", 
-		"Action=http://www.vybory.izbirkom.ru/region/izbirkom", 
+		"Action={Host}/region/izbirkom", 
 		"Method=POST", 
 		"TargetFrame=", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom", 
+		"Referer={Host}/region/izbirkom", 
 		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
@@ -49,11 +49,11 @@ Election_results()
 	lr_start_transaction("UC01_TR02_President_election");
 
 	web_url("Выборы Президента Российской Федерации", 
-		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null", 
+		"URL={Host}/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom", 
+		"Referer={Host}/region/izbirkom", 
 		"Snapshot=t12.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -71,11 +71,11 @@ Election_results()
         LAST);
 	
 	web_url("Сводна таблица результатов выборов", 
-		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227", 
+		"URL={Host}/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null", 
+		"Referer={Host}/region/izbirkom?action=show&global=1&vrn=100100084849062&region=0&prver=0&pronetvd=null", 
 		"Snapshot=t13.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -101,11 +101,11 @@ Election_results()
         LAST);
 	
 	web_url("Республика Адыге (Адыге)", 
-		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Region_ID}&type=227", 
+		"URL={Host}/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Region_ID}&type=227", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227", 
+		"Referer={Host}/region/region/izbirkom?action=show&root=1&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100084849066&type=227", 
 		"Snapshot=t14.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -121,11 +121,11 @@ Election_results()
 	lr_start_transaction("UC01_TR05_Subregion");
 
 	web_url("Адыгейска", 
-		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd={Region_ID}&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
+		"URL={Host}/region/region/izbirkom?action=show&tvd={Region_ID}&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Region_ID}&type=227", 
+		"Referer={Host}/region/region/izbirkom?action=show&tvd=100100084849066&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Region_ID}&type=227", 
 		"Snapshot=t15.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -159,11 +159,11 @@ Election_results()
         LAST);
 	
 	web_url("сайт избирательной комиссии субъекта Российской Федерации", 
-		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd={Subregion_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid={Subregion_ID}", 
+		"URL={Host}/region/izbirkom?action=show&global=true&root=12000009&tvd={Subregion_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid={Subregion_ID}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd={Region_ID}&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
+		"Referer={Host}/region/region/izbirkom?action=show&tvd={Region_ID}&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
 		"Snapshot=t16.inf", 
 		"Mode=HTML", 
 		LAST);

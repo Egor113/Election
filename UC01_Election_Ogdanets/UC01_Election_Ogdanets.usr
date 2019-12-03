@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=
+ParameterFile=UC01_Election_Ogdanets.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci
