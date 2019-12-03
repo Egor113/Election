@@ -79,6 +79,10 @@ Election_results()
 
 	lr_end_transaction("UC01_TR03_Regions",LR_AUTO);
 
+	FileVarriable = fopen (FileLocation,"w+"); 
+
+	fprintf (FileVarriable, "%s \n", "Регион, Нижестоящая ИК, УИК, Бабурин, Грудинин, Жириновский, Путин, Собчак, Сурайкин, Титов, Явлинский");
+	
 	lr_think_time(24);
 
 	lr_start_transaction("UC01_TR04_Region");
@@ -110,7 +114,7 @@ Election_results()
 	lr_start_transaction("UC01_TR05_Subregion");
 
 	web_url("Адыгейска", 
-		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227", 
+		"URL=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -148,20 +152,16 @@ Election_results()
         LAST);
 	
 	web_url("сайт избирательной комиссии субъекта Российской Федерации", 
-		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd=2012000364371&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid=2012000364371", 
+		"URL=http://www.vybory.izbirkom.ru/region/izbirkom?action=show&global=true&root=12000009&tvd={Subregion_ID}&vrn=100100084849062&prver=0&pronetvd=null&region=1&sub_region=1&type=227&vibid={Subregion_ID}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=2012000364371&type=227", 
+		"Referer=http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&tvd=100100084849067&vrn=100100084849062&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid={Subregion_ID}&type=227", 
 		"Snapshot=t16.inf", 
 		"Mode=HTML", 
 		LAST);
 	uik_count = atoi(lr_eval_string("{UIKs_count}"));
-	                 
-	FileVarriable = fopen (FileLocation,"w+");                 
-	             
-	fprintf (FileVarriable, "%s \n", "Регион, Нижестоящая ИК, УИК, Бабурин, Грудинин, Жириновский, Путин, Собчак, Сурайкин, Титов, Явлинский");
-	
+	                           
 	candidate_index = 9;
 	
 	
@@ -185,10 +185,13 @@ Election_results()
 			candidate_index++;
 	}
 	
+	lr_end_transaction("UC01_TR06_UIKs",LR_AUTO);
+	
 	}
+	
 	fclose (FileVarriable);
 	                 
-	lr_end_transaction("UC01_TR06_UIKs",LR_AUTO);
+
 
 	return 0;
 }
