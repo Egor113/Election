@@ -24,7 +24,6 @@ Description=
 ScriptLocale=ru-RU
 [Actions]
 vuser_init=vuser_init.c
-Action=Action.c
 Election_results=Election_results.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
@@ -37,26 +36,22 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=0
-Action=1
 Election_results=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
-Action=1
 Election_results=1
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
-Action=1
 Election_results=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
-Action=cci
 Election_results=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC01_TR01_Choose_date__*delimiter*__UC01_TR02_President_election__*delimiter*__UC01_TR03_Region__*delimiter*__UC01_TR04_Subregion__*delimiter*__UC01_TR05_Region_website__*delimiter*__UC01_TR06_Choose_UIK__*delimiter*__UC01_TR07_UIK_Results__*delimiter*__UC01_TR08_Download_results__*delimiter*__UC01_TR01_Choose_date__*delimiter*__UC01_TR02_President_election__*delimiter*__UC01_TR03_Regions__*delimiter*__UC01_TR04_Region__*delimiter*__UC01_TR05_Subregion__*delimiter*__UC01_TR06_UIKs"
+Order="UC01_TR01_Choose_date__*delimiter*__UC01_TR02_President_election__*delimiter*__UC01_TR03_Regions__*delimiter*__UC01_TR04_Region__*delimiter*__UC01_TR05_Subregion__*delimiter*__UC01_TR06_UIKs"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -65,12 +60,6 @@ ActiveRunName=result1
 [Transactions]
 UC01_TR01_Choose_date=
 UC01_TR02_President_election=
-UC01_TR03_Region=
-UC01_TR04_Subregion=
-UC01_TR05_Region_website=
-UC01_TR06_Choose_UIK=
-UC01_TR07_UIK_Results=
-UC01_TR08_Download_results=
 UC01_TR03_Regions=
 UC01_TR04_Region=
 UC01_TR05_Subregion=
